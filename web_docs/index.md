@@ -3,6 +3,7 @@
 [Descàrregues](DESCARREGUES.md){ .md-button }
 [Píndoles ampliades](PINDOLES_AMPLIADES/docs/index.md){ .md-button }
 [Glossari](glossari_terms.md){ .md-button }
+[Castellano](es/index.md){ .md-button .md-button--primary }
 
 
 **Projecte inicial del curs · Proposta de sis setmanes.** Este és el document que heu de seguir. Les píndoles i els fitxers pràctics estan a banda i s’enllacen en la setmana en què els necessiteu. El professorat concretarà les dates segons el calendari i el nivell del grup.
