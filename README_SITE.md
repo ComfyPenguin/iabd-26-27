@@ -46,9 +46,9 @@ Se comprueba que cada fichero publicado es idéntico al de la copia de construcc
 
 ## GitHub Pages
 
-El remoto detectado al inicio de la preparación era `https://github.com/IesElJust/iabd-26-27.git`. La configuración prevé la dirección:
+El remoto detectado al inicio de la preparación era `https://github.com/ComfyPenguin/iabd-26-27.git`. La configuración prevé la dirección:
 
-`https://ieseljust.github.io/iabd-26-27/`
+`https://comfypenguin.github.io/iabd-26-27/`
 
 La carpeta `ALUMNAT` es la raíz del repositorio. El workflow está en `.github/workflows/pages.yml` dentro de esta carpeta; `DOCUMENT_DE_TREBALL.md`, `zensical.toml` y `site_projecte.py` quedan al primer nivel. Las rutas del workflow son relativas a esta raíz. El workflow construye y comprueba el site en las propuestas de cambio; publica los cambios de `main` y permite una ejecución manual desde Actions.
 
@@ -62,4 +62,3 @@ Para activar la publicación:
 La preparación local no activa Pages ni envía cambios a GitHub. Si cambia el repositorio o se usa un dominio propio, actualiza `site_url` antes de publicar.
 
 Referencia: [publicació amb GitHub Actions en la documentació oficial de Zensical](https://zensical.org/docs/publish-your-site/).
-
