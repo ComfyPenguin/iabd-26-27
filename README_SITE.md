@@ -1,10 +1,10 @@
-# Site de l’alumnat · Zensical
+# Site del alumnado *· Zensical
 
-El punt d’entrada és **DOCUMENT_DE_TREBALL.md**. El site presenta el seu contingut com a portada, amb el mapa setmanal i els enllaços als materials. La navegació dona accés a descàrregues, materials pràctics, píndoles breus i píndoles ampliades.
+El punto de entrada es **Document_de_treball.md**. El site presenta su contenido como portada, con el mapa semanal y los enlaces a los materiales. La navegación mujer acceso a descargas, materiales prácticos, píldoras breves y píldoras ampliadas.
 
-## Editar i previsualitzar
+## Editar y previsualitzar
 
-Des de la carpeta `ALUMNAT`, crea una vegada l’entorn i instal·la Zensical:
+Desde la carpeta `ALUMNAT`, crea una vez el entorno e instala Zensical:
 
 ```bash
 python3 -m venv .venv-site
@@ -12,54 +12,54 @@ source .venv-site/bin/activate
 python -m pip install -r requirements-site.txt
 ```
 
-Per construir i obrir un servidor local:
+Para construir y abrir un servidor local:
 
 ```bash
 python site_projecte.py serve
 ```
 
-Obri `http://127.0.0.1:8000/`. Per aturar-lo, prem Ctrl+C. Este servidor mostra la versió construïda i comprovada; després de modificar un material, atura’l i torna a executar el comandament perquè es reconstruïsca. No és una previsualització amb actualització automàtica.
+Abre `http://127.0.0.1:8000/`. Para pararlo, pulsa Ctrl+C. Este servidor muestra la versión construida y comprobada; después de modificar un material, páralo y vuelve a ejecutar el mando porque se reconstruya. No es una previsualización con actualización automática.
 
-Per generar només els fitxers publicables:
+Para generar solo los ficheros publicables:
 
 ```bash
 python site_projecte.py build
 ```
 
-El resultat està en `site/`. El procés construïx amb Zensical en mode estricte i comprova els enllaços locals, les àncores i les descàrregues. No requerix les biblioteques de modelatge ni executa els notebooks o els exemples de les píndoles.
+El resultado está en `site/`. El proceso construye con Zensical en modo estricto y comprueba los enlaces locales, las àncores y las descargas. No requiere las bibliotecas de modelado ni ejecuta los notebooks o los ejemplos de las píldoras.
 
-## Una única font de contingut
+## Una única fuente de contenido
 
-Edita el document de treball i els materials en les carpetes actuals. **No edites `web_docs/` ni `site/`**: es regeneren. `web_docs/index.md` és una còpia automàtica del document de treball amb accessos a les descàrregues i les píndoles ampliades.
+Edita el documento de trabajo y los materiales en las carpetas actuales. **No editas `web_docs/` ni `site/`**: se regeneran. `web_docs/index.md` es una copia automática del documento de trabajo con accesos a las descargas y las píldoras ampliadas.
 
-El procés incorpora només `DOCUMENT_DE_TREBALL.md`, `MATERIALS_PRACTICS`, `PINDOLES` i `PINDOLES_AMPLIADES`, amb una llista explícita de formats admesos. Els resultats d’execucions, els entorns i els fitxers de configuració de la biblioteca antiga no es publiquen. El professorat queda fora del site.
+El proceso incorpora solo `DOCUMENT_DE_TREBALL.md`, `MATERIALS_PRACTICS`, `PINDOLES` y `PINDOLES_AMPLIADES`, con una lista explícita de formatos admitidos. Los resultados de ejecuciones, los entornos y los ficheros de configuración de la biblioteca antigua no se publican. El profesorado queda fuera del site.
 
-La configuració de navegació, idioma, URL i presentació està en `zensical.toml`. Els estils addicionals estan en `web_assets/projecte.css`. La configuració MkDocs de les píndoles ampliades es conserva per a l’ús independent, però el site conjunt es construïx amb Zensical.
+La configuración de navegación, idioma, URL y presentación está en `zensical.toml`. Los estilos adicionales están en `web_assets/projecte.css`. La configuración MkDocs de las píldoras ampliadas se conserva para el uso independiente, pero el site conjunto se construye con Zensical.
 
-## Descàrregues
+## Descargas
 
-Els enllaços Markdown locals a `.csv`, `.ipynb` i `.py` reben automàticament l’atribut HTML `download` en la còpia web. Així descarreguen el fitxer original des del mateix domini de GitHub Pages. No apunten a `github.com/.../blob/` ni depenen de JavaScript. La preferència de carpeta o el diàleg de desament depén del navegador.
+Los enlaces Markdown locales a `.csv`, `.ipynb` y `.py` reciben automáticamente el atributo HTML `download` en la copia web. Así descargan el fichero original desde el mismo dominio de GitHub Pages. No apuntan a `github.com/.../blob/` ni dependen de Javascript. La preferencia de carpeta o el diálogo de desament depende del navegador.
 
-La pàgina **Descàrregues** enumera tots els fitxers d’estos tipus i oferix un ZIP amb els materials pràctics. El ZIP conserva l’estructura `MATERIALS_PRACTICS/notebooks` i `MATERIALS_PRACTICS/dades`, necessària per a les rutes relatives dels notebooks.
+La página **Descargas** enumera todos los ficheros de estos tipos y ofrece un ZIP con los materiales prácticos. El ZIP conserva lo estructura `MATERIALS_PRACTICS/notebooks` y `MATERIALS_PRACTICS/dades`, necesaria para las rutas relativas de los notebooks.
 
-Es comprova que cada fitxer publicat és idèntic al de la còpia de construcció. Si afegixes enllaços amb una sintaxi diferent dels enllaços Markdown habituals, la comprovació detectarà que falta l’atribut de descàrrega i impedirà publicar una construcció incompleta.
+Se comprueba que cada fichero publicado es idéntico al de la copia de construcción. Si añades enlaces con una sintaxis diferente de los enlaces Markdown habituales, la comprobación detectará que falta el atributo de descarga e impedirá publicar una construcción incompleta.
 
 ## GitHub Pages
 
-El remot detectat a l’inici de la preparació era `https://github.com/IesElJust/iabd-26-27.git`. La configuració preveu l’adreça:
+El remoto detectado al inicio de la preparación era `https://github.com/IesElJust/iabd-26-27.git`. La configuración prevé la dirección:
 
 `https://ieseljust.github.io/iabd-26-27/`
 
-La carpeta `ALUMNAT` és l’arrel del repositori. El workflow està en `.github/workflows/pages.yml` dins d’esta carpeta; `DOCUMENT_DE_TREBALL.md`, `zensical.toml` i `site_projecte.py` queden al primer nivell. Les rutes del workflow són relatives a esta arrel. El workflow construïx i comprova el site en les propostes de canvi; publica els canvis de `main` i permet una execució manual des d’Actions.
+La carpeta `ALUMNAT` es la raíz del repositorio. El workflow está en `.github/workflows/pages.yml` dentro de esta carpeta; `DOCUMENT_DE_TREBALL.md`, `zensical.toml` y `site_projecte.py` quedan al primer nivel. Las rutas del workflow son relativas a esta raíz. El workflow construye y comprueba el site en las propuestas de cambio; publica los cambios de `main` y permite una ejecución manual desde Actions.
 
-Per activar la publicació:
+Para activar la publicación:
 
-1. En el repositori de GitHub, entra en **Settings → Pages** i selecciona **GitHub Actions** com a origen.
-2. Incorpora al repositori el contingut d’ALUMNAT, inclosa la carpeta oculta `.github`, sense afegir una carpeta ALUMNAT exterior. No puges `site/`, `web_docs/` ni els entorns virtuals.
-3. Envia els canvis a `main` i comprova el resultat de **Site de l’alumnat · Zensical** en Actions.
-4. Obri l’URL que mostre el desplegament i prova una descàrrega de cada tipus.
+1. En el repositorio de GitHub, entra en ***Settings → Pages** y selecciona ***GitHub Actions** como origen.
+2. Incorpora al repositorio el contenido de ALUMNADO, incluida la carpeta oculta `.github`, sin añadir una carpeta ALUMNADO exterior. No subes `site/`, `web_docs/` ni los entornos virtuales.
+3. Envía los cambios a `main` y comprueba el resultado de ***Site del alumnado *· Zensical** en Actions.
+4. Abre la URL que muestro el despliegue y prueba una descarga de cada tipo.
 
-La preparació local no activa Pages ni envia canvis a GitHub. Si canvia el repositori o s’usa un domini propi, actualitza `site_url` abans de publicar.
+La preparación local no activa Pages ni envía cambios a GitHub. Si cambia el repositorio o se usa un dominio propio, actualiza `site_url` antes de publicar.
 
-Referència: [publicació amb GitHub Actions en la documentació oficial de Zensical](https://zensical.org/docs/publish-your-site/).
+Referencia: [publicació amb GitHub Actions en la documentació oficial de Zensical](https://zensical.org/docs/publish-your-site/).
 

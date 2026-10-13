@@ -1,10 +1,10 @@
-# BiciTierra Market · Document de treball
+# BiciTierra Market *· Documento de trabajo
 
-**Projecte inicial del curs · Proposta de sis setmanes.** Este és el document que heu de seguir. Les píndoles i els fitxers pràctics estan a banda i s’enllacen en la setmana en què els necessiteu. El professorat concretarà les dates segons el calendari i el nivell del grup.
+**Proyecto inicial del curso *· Propuesta de seis semanas.** Este es el documento que tenéis que seguir. Las píldoras y los ficheros prácticos están a banda y se enlazan en la semana en que los necesitáis. El profesorado concretará las fechas según el calendario y el nivel del grupo.
 
-**Equip:** … · **Membres:** … · **Repositori:** …
+**Equipo:** … *· **Miembros:** … *· **Repositorio:** …
 
-| Setmana | Dates acordades | Data de revisió o entrega |
+| Semana | Fechas acordadas | Fecha de revisión o entrega |
 |---|---|---|
 | 1 | … | … |
 | 2 | … | … |
@@ -13,296 +13,296 @@
 | 5 | … | … |
 | 6 | … | … |
 
-## Com utilitzar este document
+## Como utilizar este documento
 
-1. Localitzeu la setmana actual en el [mapa del projecte](#mapa-setmanal).
-2. Llegiu l’objectiu i seguiu les tasques en ordre. Consulteu cada píndola quan la tasca ho requerisca.
-3. Treballeu amb els materials indicats i guardeu els resultats al repositori de l’equip.
-4. Completeu l’entrega setmanal i el [registre de seguiment](#registre). Anoteu la revisió docent i el pròxim pas.
+1. Localizáis la semana actual en el [mapa del projecte](#mapa-setmanal).
+2. Leéis el objetivo y seguís las tareas en orden. Consultáis cada píldora cuando la tarea lo requiera.
+3. Trabajáis con los materiales indicados y guardáis los resultados al repositorio del equipo.
+4. Completáis la entrega semanal y el [registre de seguiment](#registre). Anotáis la revisión docente y el próximo paso.
 
-Els notebooks són una base que heu d’executar, entendre i adaptar. **No executeu tot el notebook de modelatge en la setmana 2:** la prova final es reserva per a la setmana 5, després de triar el model. Les dates dels CSV pertanyen al cas simulat; no són les dates del calendari de classe.
+Los notebooks son una base que tenéis que ejecutar, entender y adaptar. **No ejecutáis todo el notebook de modelado en la semana 2:** la prueba final se reserva para la semana 5, después de elegir el modelo. Las fechas de los CSV pertenecen al caso simulado; no son las fechas del calendario de clase.
 
-## El repte de l’empresa
+## El reto de la empresa
 
-BiciTierra Market combina botiga física i comerç electrònic. Vol millorar les decisions sobre vendes, estoc i campanyes. La direcció planteja tres preguntes:
+BiciTierra Market combina tienda física y comercio electrónico. Quiere mejorar las decisiones sobre ventas, stock y campañas. La dirección plantea tres preguntas:
 
-- Podem anticipar les vendes mensuals amb prou fiabilitat per planificar l’estoc?
-- Quins perfils de client tenim i quines accions comercials tenen sentit per a cadascun?
-- Quines decisions podem justificar amb els resultats i quins límits tenen?
+- Podemos anticipar las ventas mensuales con suficiente fiabilidad para planificar el stock?
+- Qué perfiles de cliente tenemos y qué acciones comerciales tienen sentido para cada uno?
+- Qué decisiones podemos justificar con los resultados y qué límites tienen?
 
-**Producte final:** anàlisi de dades, predicció mensual justificada, segmentació interpretable, dashboard executiu, memòria breu i defensa de **8–10 minuts**.
+**Producto final:** análisis de datos, predicción mensual justificada, segmentación interpretable, dashboard ejecutivo, memoria breve y defensa de **8–10 minutos**.
 
-L’objectiu predictiu de partida és `sales_units`: unitats venudes durant un mes per canal, línia de producte i regió. Una altra variable objectiu s’ha d’acordar amb el professorat i ha de mantindre una separació temporal correcta.
+El objetivo predictivo de partida es `sales_units`: unidades vendidas durante un mes por canal, línea de producto y región. Otra variable objetivo se tiene que acordar con el profesorado y tiene que mantener una separación temporal correcta.
 
-Heu de comparar almenys una referència senzilla amb un model alternatiu, justificar una mètrica principal, aplicar una tècnica de segmentació i transformar els resultats en recomanacions. Un gràfic o una mètrica sense interpretació no tanca una tasca.
+Tenéis que comparar al menos una referencia sencilla con un modelo alternativo, justificar una métrica principal, aplicar una técnica de segmentación y transformar los resultados en recomendaciones. Un gráfico o una métrica sin interpretación no cierra una tarea.
 
-## Les dades i les regles del cas
+## Los datos y las reglas del caso
 
-| Material | Què conté | Quan s’utilitza |
+| Material | Qué contiene | Cuando se utiliza |
 |---|---|---|
-| [Històric de vendes](MATERIALS_PRACTICS/dades/sales_history.csv) | 1.188 files, 18 sèries mensuals completes, gener de 2021–juny de 2026 | Setmanes 1–3 i 5–6 |
-| [Clients](MATERIALS_PRACTICS/dades/customers.csv) | 2.000 clients, fotografia a 30/06/2026 | Exploració en setmana 1; segmentació en setmana 4 |
-| [Entrada de predicció](MATERIALS_PRACTICS/dades/sales_forecast_input.csv) | 18 combinacions de juliol de 2026 sense resultat real | Setmana 5, després de validar |
-| [Diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md) | Camps, unitats, significat i disponibilitat | Abans de triar variables i quan hi haja dubtes |
-| [Referència tècnica de les dades](MATERIALS_PRACTICS/dades/README.md) | Generació sintètica, cobertura, nuls i ús dels fitxers | Consulta durant el projecte |
+| [Històric de vendes](MATERIALS_PRACTICS/dades/sales_history.csv) | 1.188 filas, 18 series mensuales completas, enero de 2021–junio de 2026 | Semanas 1–3 y 5–6 |
+| [Clients](MATERIALS_PRACTICS/dades/customers.csv) | 2.000 clientes, fotografía a 30/06/2026 | Exploración en semana 1; segmentación en semana 4 |
+| [Entrada de predicció](MATERIALS_PRACTICS/dades/sales_forecast_input.csv) | 18 combinaciones de julio de 2026 sin resultado real | Semana 5, después de validar |
+| [Diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md) | Camps, unidades, significado y disponibilidad | Antes de elegir variables y cuando haya dudas |
+| [Referència tècnica de les dades](MATERIALS_PRACTICS/dades/README.md) | Generación sintética, cobertura, nulos y uso de los ficheros | Consulta durante el proyecto |
 
-Totes les dades són **sintètiques per a docència**. Els clients són una mostra independent de les vendes agregades: no hi ha una clau transaccional que permeta unir les dues taules fila a fila. No s’espera que la despesa dels clients sume els ingressos de vendes.
+Todos los datos son **sintéticas para docencia**. Los clientes son una muestra independiente de las ventas agregadas: no hay una clave transaccional que permita unir las dos mesas hila a fila. No se espera que el gasto de los clientes sume los ingresos de ventas.
 
-**Informació disponible abans del mes:** canal, producte, regió, calendari, pressupost de màrqueting, descompte previst, estoc inicial i preu de tarifa. També es poden usar retards de mesos anteriors de la mateixa sèrie.
+**Información disponible antes del mes:** canal, producto, región, calendario, presupuesto de marketing, descuento previsto, stock inicial y precio de tarifa. También se pueden usar retrasos de meses anteriores de la misma serie.
 
-**Informació coneguda després del mes:** vendes, ingressos, visites web, despesa real de màrqueting, descompte real, estoc final i ruptura d’estoc. No useu estos valors del mateix mes per anticipar-ne les vendes.
+**Información conocida después del mes:** ventas, ingresos, visitas web, gasto real de marketing, descuento real, stock final y ruptura de stock. No usáis estos valores del mismo mes para anticipar las ventas.
 
-| Partició | Període | Funció |
+| Partición | Periodo | Función |
 |---|---|---|
-| Històric inicial | 2021 | Construir el retard de 12 mesos quan s’utilitze |
-| Entrenament | Fins a desembre de 2024; efectivament 2022–2024 amb `lag_12` | Ajustar models i transformacions |
-| Validació | Gener–desembre de 2025 | Comparar models i triar paràmetres |
-| Prova final | Gener–juny de 2026 | Avaluar després de fixar les decisions; setmana 5 |
-| Predicció nova | Juliol de 2026 | Aplicar el model sense disposar encara del resultat |
+| Histórico inicial | 2021 | Construir el retraso de 12 meses cuando se utilice |
+| Entrenamiento | Hasta diciembre de 2024; efectivamente 2022–2024 con `lag_12` | Ajustar modelos y transformaciones |
+| Validación | Gener–diciembre de 2025 | Comparar modelos y elegir parámetros |
+| Prueba final | Gener–junio de 2026 | Evaluar después de fijar las decisiones; semana 5 |
+| Predicción nueva | Julio de 2026 | Aplicar el modelo sin disponer todavía del resultado |
 
-Separeu mesos complets, sense barrejar files aleatòriament. Ajusteu la imputació i l’escala només amb entrenament. La prova representa prediccions successives d’un mes vista: per predir juny, maig ja s’ha observat. No és una predicció simultània de sis mesos feta al desembre.
+Separáis meses completos, sin mezclar filas aleatoriamente. Ajustáis la imputación y la escala solo con entrenamiento. La prueba representa predicciones sucesivas de un mes vista: para predecir junio, mayo ya se ha observado. No es una predicción simultánea de seis meses hecha en diciembre.
 
-<a id="mapa-setmanal"></a>
-## Mapa del projecte per setmanes
+<a id="mapa-semanal"></a>
+## Mapa del proyecto por semanas
 
-| Setmana | Focus | Material pràctic principal | Evidència de tancament |
+| Semana | Foco | Material práctico principal | Evidencia de cierre |
 |---|---|---|---|
-| [1](#setmana-1) | Entorn, pregunta de negoci i EDA | Notebook 01 + històric + clients | Pregunta, dues hipòtesis i diagnòstic inicial · **CP1** |
-| [2](#setmana-2) | Neteja, partició temporal i referències | Notebook 02, apartats 1–2 | Dades preparades, predictors justificats i baseline · **CP2** |
-| [3](#setmana-3) | Entrenament i comparació | Notebook 02, apartats 3–4 | Taula de validació i elecció provisional de model |
-| [4](#setmana-4) | Segmentació i perfils | Notebook 03 + clients | Perfils, accions comercials i model comparat · **CP3** |
-| [5](#setmana-5) | Prova final, errors i explicació | Notebook 02, apartats 5–6 | Resultat de prova reservada, límits i previsió de juliol |
-| [6](#setmana-6) | Dashboard, memòria i defensa | Materials de dashboard + resultats propis | Paquet final i defensa · **CP4** |
+| [1](#setmana-1) | Entorno, pregunta de negocio y EDA | Notebook 01 + histórico + clientes | Pregunta, dos hipótesis y diagnóstico inicial *· **CP1** |
+| [2](#setmana-2) | Limpieza, partición temporal y referencias | Notebook 02, apartados 1–2 | Datos preparados, predictores justificados y baseline *· **CP2** |
+| [3](#setmana-3) | Entrenamiento y comparación | Notebook 02, apartados 3–4 | Tabla de validación y elección provisional de modelo |
+| [4](#setmana-4) | Segmentación y perfiles | Notebook 03 + clientes | Perfiles, acciones comerciales y modelo comparado *· **CP3** |
+| [5](#setmana-5) | Prueba final, errores y explicación | Notebook 02, apartados 5–6 | Resultado de prueba reservada, límites y previsión de julio |
+| [6](#setmana-6) | Dashboard, memoria y defensa | Materiales de dashboard + resultados propios | Paquete final y defensa *· **CP4** |
 
-Cada setmana té quatre moments: **preparar → desenvolupar → comprovar → entregar**. Distribuïu-los entre les sessions reals amb el professorat. Les ampliacions són opcionals i es fan després del mínim de la setmana.
+Cada semana tiene cuatro momentos: **preparar → desarrollar → comprobar → entregar**. Distribuidlos entre las sesiones reales con el profesorado. Las ampliaciones son opcionales y se hacen después del mínimo de la semana.
 
-<a id="setmana-1"></a>
-## Setmana 1 · Entendre el repte i explorar
+<a id="semana-1"></a>
+## Semana 1 *· Entender el reto y explorar
 
-**Objectiu:** formular una pregunta de negoci concreta i comprovar què permeten respondre les dades.
+**Objetivo:** formular una pregunta de negocio concreta y comprobar qué permiten responder los datos.
 
-### Píndoles, en ordre d’ús
+### Píldoras, en orden de uso
 
-1. [Python i entorns](PINDOLES/python-i-entorns.md): preparació de l’entorn; reforç segons el nivell inicial.
-2. [Jupyter Notebooks](PINDOLES/jupyter-notebooks.md): obrir, executar cel·les i escriure conclusions.
-3. [Python per a dades](PINDOLES/python-per-a-dades-i.md): carregar CSV, seleccionar camps i resumir dades.
-4. [EDA i qualitat](PINDOLES/eda-i-qualitat-de-dades.md): decidir què revisar abans de modelar.
+1. [Python i entorns](PINDOLES/python-i-entorns.md): preparación del entorno; refuerzo según el nivel inicial.
+2. [Jupyter Notebooks](PINDOLES/jupyter-notebooks.md): abrir, ejecutar celdas y escribir conclusiones.
+3. [Python per a dades](PINDOLES/python-per-a-dades-i.md): cargar CSV, seleccionar campos y resumir datos.
+4. [EDA i qualitat](PINDOLES/eda-i-qualitat-de-dades.md): decidir qué revisar antes de modelar.
 
-### Materials que heu d’obrir
+### Materiales que tenéis que abrir
 
 - [Notebook 01 · EDA](MATERIALS_PRACTICS/notebooks/01_eda.ipynb).
-- [Històric](MATERIALS_PRACTICS/dades/sales_history.csv), [clients](MATERIALS_PRACTICS/dades/customers.csv) i [diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md).
+- [Històric](MATERIALS_PRACTICS/dades/sales_history.csv), [clients](MATERIALS_PRACTICS/dades/customers.csv) y [diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md).
 
-### Tasques
+### Tareas
 
-1. Acordeu l’equip i creeu el repositori amb l’[estructura mínima](#repositori).
-2. Escriviu una pregunta principal i una de secundària. Concreteu quina decisió prendria la direcció amb la resposta.
-3. Prepareu Python, Jupyter, pandas i NumPy. Des de la carpeta `MATERIALS_PRACTICS/notebooks/`, executeu la lectura inicial dels CSV.
-4. Comproveu què representa cada fila, les claus, les dates, els tipus i els nuls. Diferencieu falta de dada i valor zero.
-5. Useu els patrons d’entrenament per explorar diferències entre canals, productes, regions i mesos. No useu la prova de 2026 per orientar decisions de model.
-6. Escriviu dues hipòtesis i exemples concrets que les motiven. Anoteu també què encara no podeu concloure.
+1. Acordáis el equipo y creáis el repositorio con el [estructura mínima](#repositori).
+2. Escribís una pregunta principal y una de secundaria. Concretad qué decisión tomaría la dirección con la respuesta.
+3. Preparáis Python, Jupyter, pandas y NumPy. Desde la carpeta `MATERIALS_PRACTICS/notebooks/`, ejecutáis la lectura inicial de los CSV.
+4. Comprobáis qué representa cada fila, las claves, las fechas, los tipos y los nulos. Diferenciáis falta de dato y valor cero.
+5. Usáis los patrones de entrenamiento para explorar diferencias entre canales, productos, regiones y meses. No usáis la prueba de 2026 para orientar decisiones de modelo.
+6. Escribís dos hipótesis y ejemplos concretos que las motivan. Anotáis también que todavía no podéis concluir.
 
-### Entrega i comprovació · CP1
+### Entrega y comprobación *· CP1
 
-Completeu esta fitxa en el repositori:
+Completáis esta ficha en el repositorio:
 
-| Apartat | Resposta de l’equip |
+| Apartado | Respondida del equipo |
 |---|---|
-| Pregunta principal i decisió de negoci | … |
-| Pregunta secundària | … |
-| Variable objectiu i unitat d’observació | … |
-| Predictors inicials i moment en què es coneixen | … |
-| Problemes de qualitat detectats i exemples | … |
-| Baseline, model alternatiu i mètrica que proposem | … |
-| Variables i tècnica inicial de segmentació | … |
-| Hipòtesi 1 i hipòtesi 2 | … |
+| Pregunta principal y decisión de negocio | … |
+| Pregunta secundaria | … |
+| Variable objetivo y unidad de observación | … |
+| Predictores iniciales y momento en que se conocen | … |
+| Problemas de calidad detectados y ejemplos | … |
+| Baseline, modelo alternativo y métrica que proponemos | … |
+| Variables y técnica inicial de segmentación | … |
+| Hipótesis 1 e hipótesis 2 | … |
 
-Adjunteu el notebook executat amb comentaris. Podeu avançar quan qualsevol membre explique la pregunta, la clau d’una fila i almenys un problema de qualitat.
+Adjuntáis el notebook ejecutado con comentarios. Podéis avanzar cuando cualquier miembro explico la pregunta, la clave de una fila y al menos un problema de calidad.
 
-<a id="setmana-2"></a>
-## Setmana 2 · Preparar les dades i establir una referència
+<a id="semana-2"></a>
+## Semana 2 *· Preparar los datos y establecer una referencia
 
-**Objectiu:** tindre una preparació reproduïble i una primera predicció amb què comparar els models.
+**Objetivo:** tener una preparación reproducible y una primera predicción con qué comparar los modelos.
 
-### Píndoles
+### Píldoras
 
-- [Python per a dades](PINDOLES/python-per-a-dades-i.md): tractament de nuls, transformacions i agrupacions.
-- [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md): representar distribucions i justificar decisions.
-- [Validació de models](PINDOLES/validacio-de-models.md): mètriques i separació de dades. En este projecte preval el tall temporal indicat ací sobre exemples genèrics de partició aleatòria.
+- [Python per a dades](PINDOLES/python-per-a-dades-i.md): tratamiento de nulos, transformaciones y agrupaciones.
+- [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md): representar distribuciones y justificar decisiones.
+- [Validació de models](PINDOLES/validacio-de-models.md): métricas y separación de datos. En este proyecto prevalece el corte temporal indicado aquí sobre ejemplos genéricos de partición aleatoria.
 
-### Materials
+### Materiales
 
-- [Notebook 01](MATERIALS_PRACTICS/notebooks/01_eda.ipynb), per documentar qualitat i decisions.
-- [Notebook 02 · Modelatge](MATERIALS_PRACTICS/notebooks/02_modelatge_baseline.ipynb): càrrega i **apartats 1–2**, inclosa la comprovació de referències de setmana 2.
+- [Notebook 01](MATERIALS_PRACTICS/notebooks/01_eda.ipynb), para documentar calidad y decisiones.
+- [Notebook 02 · Modelatge](MATERIALS_PRACTICS/notebooks/02_modelatge_baseline.ipynb): carga y **apartados 1–2**, incluida la comprobación de referencias de semana 2.
 - [Diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md).
 
-### Tasques
+### Tareas
 
-1. Per cada problema detectat, decidiu conservar, corregir, imputar o excloure i escriviu el motiu. Manteniu els CSV originals intactes.
-2. Ordeneu per sèrie i mes; comproveu la cobertura abans de crear retards d’un i dotze mesos.
-3. Separeu entrenament, validació i prova. Guardeu dates i recompte de files de cada partició.
-4. Elaboreu una taula de variables admeses i excloses segons si es coneixen abans del mes. Justifiqueu especialment l’exclusió d’ingressos i sessions del mateix mes.
-5. Calculeu la mitjana històrica de grup només amb entrenament i compareu-la amb la referència del mateix mes de l’any anterior.
-6. Mesureu l’error en validació: **MAE en unitats** i **WAPE en percentatge**. Expliqueu què implica l’error per al negoci.
+1. Por cada problema detectado, decidís conservar, corregir, imputar o excluir y escribís el motivo. Mantenéis los CSV originales intactos.
+2. Ordenáis por serie y mes; comprobáis la cobertura antes de crear retrasos de uno y doce meses.
+3. Separáis entrenamiento, validación y prueba. Guardáis fechas y recuento de filas de cada partición.
+4. Elaboráis una tabla de variables admitidas y excluidas segundos si se conocen antes del mes. Justificáis especialmente la exclusión de ingresos y sesiones del mismo mes.
+5. Calculáis la media histórica de grupo solo con entrenamiento y comparadla con la referencia del mismo mes del año anterior.
+6. Mesuráis el error en validación: ***MAE en unidades** y ***WAPE en porcentaje**. Explicáis qué implica el error para el negocio.
 
-### Entrega i comprovació · CP2
+### Entrega y comprobación *· CP2
 
-- Notebook amb preparació reproduïble i decisions de qualitat.
-- Taula de particions, llista de predictors i resultats de les referències.
-- Un exemple de com una mala imputació o una variable posterior podria falsejar el resultat.
+- Notebook con preparación reproducible y decisiones de calidad.
+- Tabla de particiones, lista de predictores y resultados de las referencias.
+- Un ejemplo de como una mala imputación o una variable posterior podría falsear el resultado.
 
-Atureu-vos abans de l’apartat 3 del notebook 02. El conjunt de prova queda reservat.
+Paraos antes del apartado 3 del notebook 02. El conjunto de prueba queda reservado.
 
-<a id="setmana-3"></a>
-## Setmana 3 · Comparar models
+<a id="semana-3"></a>
+## Semana 3 *· Comparar modelos
 
-**Objectiu:** seleccionar una alternativa amb evidències de validació, sense mirar el resultat de la prova final.
+**Objetivo:** seleccionar una alternativa con evidencias de validación, sin mirar el resultado de la prueba final.
 
-### Píndoles
+### Píldoras
 
-- [Introducció a scikit-learn](PINDOLES/scikit-learn-intro.md): conceptes d’ajust, predicció i pipeline. El notebook base calcula ridge amb NumPy; traslladar-lo a scikit-learn és una ampliació.
-- [Validació de models](PINDOLES/validacio-de-models.md): comparació justa, sobreajust i lectura de mètriques.
-- **Ampliació:** [MLflow](PINDOLES/mlflow-intro.md), per registrar experiments si la comparació bàsica ja funciona.
+- [Introducció a scikit-learn](PINDOLES/scikit-learn-intro.md): conceptos de ajuste, predicción y pipeline. El notebook base calcula ridge con NumPy; trasladarlo a scikit-learn es una ampliación.
+- [Validació de models](PINDOLES/validacio-de-models.md): comparación justa, sobreajust y lectura de métricas.
+- **Ampliación:** [MLflow](PINDOLES/mlflow-intro.md), para registrar experimentos si la comparación básica ya funciona.
 
-### Materials
+### Materiales
 
-- [Notebook 02](MATERIALS_PRACTICS/notebooks/02_modelatge_baseline.ipynb), **apartats 3–4**. Executeu abans les cel·les de preparació de setmana 2 si reinicieu l’entorn.
-- Resultats de les referències de setmana 2.
+- [Notebook 02](MATERIALS_PRACTICS/notebooks/02_modelatge_baseline.ipynb), **apartados 3–4**. Ejecutáis antes las celdas de preparación de semana 2 si reiniciáis el entorno.
+- Resultados de las referencias de semana 2.
 
-### Tasques
+### Tareas
 
-1. Expliqueu què aporta un model lineal regularitzat respecte de les referències simples.
-2. Entreneu amb els predictors disponibles abans del mes i amb transformacions ajustades només en entrenament.
-3. Compareu, com a mínim, una referència i un model alternatiu amb les mateixes files de validació i mètriques.
-4. Registreu model, variables, paràmetres, MAE, WAPE i observacions. Mostreu casos en què la predicció s’allunye del resultat.
-5. Trieu provisionalment el model amb dades de 2025 i justifiqueu si la millora compensa la complexitat.
+1. Explicáis qué aporta un modelo lineal regularizado respecto de las referencias simples.
+2. Entrenáis con los predictores disponibles antes del mes y con transformaciones ajustadas solo en entrenamiento.
+3. Comparáis, como mínimo, una referencia y un modelo alternativo con las mismas filas de validación y métricas.
+4. Registráis modelo, variables, parámetros, MAE, WAPE y observaciones. Mostráis casos en que la predicción se aleje del resultado.
+5. Elegís provisionalmente el modelo con datos de 2025 y justificáis si la mejora compensa la complejidad.
 
-### Entrega i comprovació
+### Entrega y comprobación
 
-Taula comparativa, elecció argumentada i dos casos d’error en validació. Tots els membres han de distingir entrenament, validació i prova.
+Mesa comparativa, elección argumentada y dos casos de error en validación. Todos los miembros tienen que distinguir entrenamiento, validación y prueba.
 
-**Atureu-vos abans de l’apartat 5.** La selecció es revisa en CP3 juntament amb la segmentació; la prova final arribarà en setmana 5.
+**Paraos antes del apartado 5.** La selección se revisa en CP3 junto con la segmentación; la prueba final llegará en semana 5.
 
-<a id="setmana-4"></a>
-## Setmana 4 · Segmentar clients i proposar accions
+<a id="semana-4"></a>
+## Semana 4 *· Segmentar clientes y proponer acciones
 
-**Objectiu:** descriure perfils de client que ajuden a decidir campanyes, serveis o prioritats comercials.
+**Objetivo:** describir perfiles de cliente que ayudan a decidir campañas, servicios o prioridades comerciales.
 
-### Píndoles
+### Píldoras
 
-- [Clustering i segmentació](PINDOLES/clustering-i-segmentacio.md): triar variables, escalar i interpretar grups.
-- [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md): comparar perfils sense quedar-se en etiquetes numèriques.
-- [Scikit-learn](PINDOLES/scikit-learn-intro.md): suport si s’implementa K-Means o un altre algorisme.
+- [Clustering i segmentació](PINDOLES/clustering-i-segmentacio.md): elegir variables, escalar e interpretar grupos.
+- [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md): comparar perfiles sin quedarse en hashtags numéricos.
+- [Scikit-learn](PINDOLES/scikit-learn-intro.md): apoyo si se implementa K-Means u otro algoritmo.
 
-### Materials
+### Materiales
 
 - [Notebook 03 · Segmentació](MATERIALS_PRACTICS/notebooks/03_segmentacio.ipynb).
-- [Clients](MATERIALS_PRACTICS/dades/customers.csv) i la seua definició en el [diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md).
+- [Clients](MATERIALS_PRACTICS/dades/customers.csv) y su definición en el [diccionari](MATERIALS_PRACTICS/dades/DICCIONARI_DADES.md).
 
-### Tasques
+### Tareas
 
-1. Reviseu nuls, valors extrems, recència, freqüència, despesa i devolucions. Excloeu identificador i data de fotografia com a variables de clustering.
-2. Justifiqueu les variables triades. La despesa anual és tiquet mitjà × comandes: usar les tres pot donar massa pes al mateix comportament.
-3. Executeu les regles del notebook com a primera referència. El notebook inclou una segmentació heurística; no conté un clustering complet resolt.
-4. Desenvolupeu i justifiqueu la tècnica acordada amb el professorat. Per practicar clustering, useu la píndola de K-Means, ajusteu l’escala i argumenteu el nombre de grups. Una tècnica més complexa no és millor només pel nom.
-5. Descriviu almenys dos perfils útils: mida, comportament, diferències i casos fronterers.
-6. Proposeu una acció per perfil i expliqueu què hauria de comprovar l’empresa abans d’aplicar-la.
+1. Revisáis nulos, valores extremos, recència, frecuencia, gasto y devoluciones. Excluis identificador y fecha de fotografía como variables de clustering.
+2. Justificáis las variables elegidas. El gasto anual es ticket mediano × pedidos: usar las tres puede dar demasiadas pes al mismo comportamiento.
+3. Ejecutáis las reglas del notebook como primera referencia. El notebook incluye una segmentación heurística; no contiene un clustering completo resuelto.
+4. Desarrolláis y justificáis la técnica acordada con el profesorado. Para practicar clustering, usáis la píldora de K-Means, ajustáis la escala y argumentáis el número de grupos. Una técnica más compleja no es mejor solo por el nombre.
+5. Describís al menos dos perfiles útiles: medida, comportamiento, diferencias y casos fronterizos.
+6. Proponéis una acción por perfil y explicáis qué tendría que comprobar la empresa antes de aplicarla.
 
-### Entrega i comprovació · CP3
+### Entrega y comprobación *· CP3
 
-- Notebook amb preparació, tècnica i perfils interpretats.
-- Taula de segments i accions comercials.
-- Comparativa de models de setmana 3 i decisió final abans d’obrir el test.
+- Notebook con preparación, técnica y perfiles interpretados.
+- Tabla de segmentos y acciones comerciales.
+- Comparativa de modelos de semana 3 y decisión final antes de abrir la maceta.
 
-No hi ha una etiqueta de segment «correcta». Cal justificar utilitat i límits. No uniu esta fotografia de clients amb vendes històriques com si foren les mateixes transaccions.
+No hay un hashtag de segmento «correcta». Hay que justificar utilidad y límites. No unís esta fotografía de clientes con ventas históricas como si fueron las mismas transacciones.
 
-<a id="setmana-5"></a>
-## Setmana 5 · Fer la prova final i explicar el resultat
+<a id="semana-5"></a>
+## Semana 5 *· Hacer la prueba final y explicar el resultado
 
-**Objectiu:** comprovar el model en dades reservades i comunicar els seus errors i límits.
+**Objetivo:** comprobar el modelo en datos reservados y comunicar sus errores y límites.
 
-### Píndoles
+### Píldoras
 
-- [Validació de models](PINDOLES/validacio-de-models.md): lectura crítica de la prova i diferència amb validació.
-- [Explicabilitat amb SHAP i LIME](PINDOLES/xai-shap-lime.md): lectura conceptual de factors i explicacions. Aplicar les llibreries és una ampliació; el mínim és explicar decisions i casos concrets amb evidències.
+- [Validació de models](PINDOLES/validacio-de-models.md): lectura crítica de la prueba y diferencia con validación.
+- [Explicabilitat amb SHAP i LIME](PINDOLES/xai-shap-lime.md): lectura conceptual de factores y explicaciones. Aplicar las librerías es una ampliación; el mínimo es explicar decisiones y casos concretos con evidencias.
 
-### Materials
+### Materiales
 
-- [Notebook 02](MATERIALS_PRACTICS/notebooks/02_modelatge_baseline.ipynb), **apartats 5–6**, després de recuperar l’ajust i la selecció ja fixats.
+- [Notebook 02](MATERIALS_PRACTICS/notebooks/02_modelatge_baseline.ipynb), **apartados 5–6**, después de recuperar el ajuste y la selección ya fijados.
 - [Entrada de juliol](MATERIALS_PRACTICS/dades/sales_forecast_input.csv).
-- Comparativa i decisions congelades en CP3.
+- Comparativa y decisiones congeladas en CP3.
 
-### Tasques
+### Tareas
 
-1. Deixeu per escrit el model, els predictors i els paràmetres abans d’executar la prova.
-2. Avalueu gener–juny de 2026 una vegada. No canvieu el model per millorar esta mètrica i continuar presentant-la com a prova independent.
-3. Compareu el resultat amb validació i analitzeu almenys dos casos d’error. Considereu estoc insuficient, diferències de grup i informació no observada.
-4. Expliqueu factors que influeixen en el model i límits de la interpretació. En dades sintètiques, una relació apresa no demostra una causa en el mercat real.
-5. Apliqueu el model a juliol i guardeu les 18 prediccions amb la clau completa. Diferencieu predicció i venda real.
-6. Redacteu una recomanació d’estoc i una de campanya, amb el grau de confiança que permeten les evidències.
+1. Dejáis por escrito el modelo, los predictores y los parámetros antes de ejecutar la prueba.
+2. Evaluáis enero–junio de 2026 una vez. No cambiáis el modelo para mejorar esta métrica y continuar presentándola como prueba independiente.
+3. Comparáis el resultado con validación y analizáis al menos dos casos de error. Consideráis stock insuficiente, diferencias de grupo e información no observada.
+4. Explicáis factores que influyen en el modelo y límites de la interpretación. En datos sintéticos, una relación aprendida no demuestra una causa en el mercado real.
+5. Aplicáis el modelo a julio y guardáis las 18 predicciones con la clave completa. Diferenciáis predicción y venta real.
+6. Redactáis una recomendación de stock y una de campaña, con el grado de confianza que permiten las evidencias.
 
-### Entrega i comprovació
+### Entrega y comprobación
 
-Mètriques finals, anàlisi d’errors, fitxer de prediccions i límits documentats. La venda real de juliol no està inclosa: no hi ha una mètrica validada per a eixe mes.
+Métricas finales, análisis de errores, fichero de predicciones y límites documentados. La venta real de julio no está incluida: no hay una métrica validada para ese mes.
 
-Esta entrega prepara CP4. Les mètriques no s’avaluen per superar un llindar màgic: importa que el procés siga correcte i que sapieu explicar el resultat.
+Esta entrega prepara CP4. Las métricas no se evalúan para superar un umbral mágico: importa que el proceso sea correcto y que sepáis explicar el resultado.
 
-<a id="setmana-6"></a>
-## Setmana 6 · Construir el dashboard i defensar decisions
+<a id="semana-6"></a>
+## Semana 6 *· Construir el dashboard y defender decisiones
 
-**Objectiu:** presentar una proposta que la direcció puga entendre i utilitzar.
+**Objetivo:** presentar una propuesta que la dirección pueda entender y utilizar.
 
-### Píndoles
+### Píldoras
 
-- [Dashboards i Power BI](PINDOLES/dashboards-i-powerbi.md): triar KPIs i visuals segons la pregunta.
-- [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md): llegibilitat i comunicació de resultats, si es necessita reforç.
+- [Dashboards i Power BI](PINDOLES/dashboards-i-powerbi.md): elegir KPIs y visuales según la pregunta.
+- [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md): legibilidad y comunicación de resultados, si se necesita refuerzo.
 
-### Materials
+### Materiales
 
 - [Briefing del panell](MATERIALS_PRACTICS/dashboards/01_briefing_powerbi.md).
 - [KPIs i visuals](MATERIALS_PRACTICS/dashboards/02_kpis_i_visuals.md).
 - [Model de taules](MATERIALS_PRACTICS/dashboards/03_model_taules.md).
-- Resultats propis de vendes, validació, segments i prediccions.
+- Resultados propios de ventas, validación, segmentos y predicciones.
 
-### Tasques
+### Tareas
 
-1. Dissenyeu el panell en paper abans de construir-lo. Assigneu una pregunta o decisió a cada visual.
-2. Incloeu una lectura de vendes o ingressos, comparació per canal/producte, perfils de client i conclusions. Separeu clarament previsió i dades observades.
-3. Eviteu duplicar vendes amb unions incorrectes. No sumeu preus ni percentatges; justifiqueu les agregacions.
-4. Prepareu la [memòria](#memoria) i el repositori reproduïble. Mostreu de quins resultats ix cada recomanació.
-5. Prepareu la defensa de 8–10 minuts: problema, dades, comparació, segments, demo del panell, decisions i límits.
-6. Completeu l’[autoavaluació](#autoavaluacio) i reviseu la [rúbrica](#avaluacio).
+1. Diseñáis el panel en papel antes de construirlo. Asignáis una pregunta o decisión a cada visual.
+2. Incluis una lectura de ventas o ingresos, comparación por canal/producto, perfiles de cliente y conclusiones. Separáis claramente previsión y datos observados.
+3. Evitáis duplicar ventas con uniones incorrectas. No sumáis precios ni porcentajes; justificáis las agregaciones.
+4. Preparáis la [memòria](#memoria) y el repositorio reproducible. Mostráis de qué resultados sale cada recomendación.
+5. Preparáis la defensa de 8–10 minutos: problema, datos, comparación, segmentos, demo del panel, decisiones y límites.
+6. Completáis el [autoavaluació](#autoavaluacio) y revisáis la [rúbrica](#avaluacio).
 
-### Entrega final · CP4
+### Entrega final *· CP4
 
-- Notebooks executats amb conclusions i instruccions per repetir-los.
-- Comparativa en validació, decisió de model i mètriques de prova reservada.
-- Segmentació i almenys dues interpretacions comercials útils.
-- Prediccions de juliol identificades com a previsió.
-- Dashboard o visual equivalent, fitxer o enllaç accessible.
-- Memòria amb recomanacions, limitacions i repartiment de treball.
-- Defensa i autoavaluació.
+- Notebooks ejecutados con conclusiones e instrucciones para repetirlos.
+- Comparativa en validación, decisión de modelo y métricas de prueba reservada.
+- Segmentación y al menos dos interpretaciones comerciales útiles.
+- Predicciones de julio identificadas como previsión.
+- Dashboard o visual equivalente, fichero o enlace accesible.
+- Memoria con recomendaciones, limitaciones y reparto de trabajo.
+- Defensa y autoevaluación.
 
-**Comprovació mínima de defensa:** una comparativa entre models, dos perfils útils i una recomanació concreta que la direcció podria considerar. Cada membre ha de poder explicar la seua aportació i el fil general del projecte.
+**Comprobación mínima de defensa:** una comparativa entre modelos, dos perfiles útiles y una recomendación concreta que la dirección podría considerar. Cada miembro tiene que poder explicar su aportación y el hilo general del proyecto.
 
-<a id="registre"></a>
-## Registre de treball i revisions
+<a id="registro"></a>
+## Registro de trabajo y revisiones
 
-Manteniu este registre en la còpia de treball de l’equip o en el repositori. No cal crear una altra guia del projecte.
+Mantenéis este registro en la copia de trabajo del equipo o en el repositorio. No hay que crear otra guía del proyecto.
 
-| Setmana | Evidència: fitxer o enllaç | Què funciona / què falta | Decisió i motiu | Revisió docent i pròxim pas |
+| Semana | Evidencia: fichero o enlace | Que funciona / qué falta | Decisión y motivo | Revisión docente y próximo paso |
 |---|---|---|---|---|
-| 1 · CP1 | … | … | … | … |
-| 2 · CP2 | … | … | … | … |
+| 1 *· CP1 | … | … | … | … |
+| 2 *· CP2 | … | … | … | … |
 | 3 | … | … | … | … |
-| 4 · CP3 | … | … | … | … |
+| 4 *· CP3 | … | … | … | … |
 | 5 | … | … | … | … |
-| 6 · CP4 | … | … | … | … |
+| 6 *· CP4 | … | … | … | … |
 
-En cada checkpoint indiqueu **equip, data, objectiu, treball acabat, bloqueig, proves fetes, decisió tècnica, alternatives descartades, feedback i acció següent**. El professorat pot valorar comprensió, autonomia i qualitat tècnica amb nivell alt, mitjà o baix per orientar el progrés; això no substituïx la rúbrica final.
+En cada checkpoint indicáis **equipo, fecha, objetivo, trabajo acabado, bloqueo, pruebas hechas, decisión técnica, alternativas descartadas, feedback y acción siguiente**. El profesorado puede valorar comprensión, autonomía y calidad técnica con nivel alto, mediano o bajo para orientar el progreso; esto no sustituye la rúbrica final.
 
-<a id="repositori"></a>
-## Organització del treball de l’equip
+<a id="repositorio"></a>
+## Organización del trabajo del equipo
 
 ```text
 equip_bicitierra/
@@ -315,130 +315,130 @@ equip_bicitierra/
   evidencies/    mètriques, prediccions, captures i resultats del panell
 ```
 
-El README de l’equip ha d’indicar objectiu, membres, estructura, dependències, ordre d’execució i limitacions. Si traslladeu els notebooks al vostre repositori, adapteu les rutes de dades. En el paquet lliurat, els notebooks troben els CSV en `../dades/` respecte de la seua carpeta.
+El README del equipo tiene que indicar objetivo, miembros, estructura, dependencias, orden de ejecución y limitaciones. Si trasladáis los notebooks a vuestro repositorio, adaptáis las rutas de datos. En el paquete librado, los notebooks encuentran los CSV en `../dades/` respecto de su carpeta.
 
 <a id="memoria"></a>
-## Estructura de la memòria final
+## Estructura de la memoria final
 
-1. **Resum executiu:** problema, proposta i valor per a l’empresa.
-2. **Dades i flux de treball:** fonts sintètiques, granularitat, qualitat, transformacions, eines i dependències.
-3. **Predicció:** variable objectiu, predictors, dates de les particions, models, mètriques i elecció.
-4. **Segmentació:** variables, tècnica, perfils, interpretació i accions.
-5. **Proves i resultats:** errors, resultats reservats, dashboard i recomanacions.
-6. **Límits i millores:** què no es pot concloure, riscos i següents passos.
-7. **Repartiment del treball:** aportacions, decisions compartides i dificultats resoltes.
+1. **Resumen ejecutivo:** problema, propuesta y valor para la empresa.
+2. **Datos y flujo de trabajo:** fuentes sintéticas, granularidad, calidad, transformaciones, herramientas y dependencias.
+3. **Predicción:** variable objetivo, predictores, fechas de las particiones, modelos, métricas y elección.
+4. **Segmentación:** variables, técnica, perfiles, interpretación y acciones.
+5. **Pruebas y resultados:** errores, resultados reservados, dashboard y recomendaciones.
+6. **Límites y mejoras:** que no se puede concluir, riesgos y siguientes pasos.
+7. **Reparto del trabajo:** aportaciones, decisiones compartidas y dificultades resueltas.
 
 <a id="autoavaluacio"></a>
-## Autoavaluació de l’equip
+## Autoevaluación del equipo
 
-- Qui ha assumit l’anàlisi, les dades, el modelatge, la segmentació, la visualització i la documentació?
-- Quina ha sigut la millor decisió i quina evidència la sustenta?
-- Quin problema ha costat més i com s’ha resolt?
-- Què canviaríeu si tornàreu a començar?
-- Quin nivell d’autonomia heu assolit i en què encara necessiteu suport?
-- Cada membre explica una aportació concreta i un aspecte que necessita reforçar.
+- Quién ha asumido el análisis, los datos, el modelado, la segmentación, la visualización y la documentación?
+- Qué ha sido la mejor decisión y qué evidencia la sustenta?
+- Qué problema ha costado más y como se ha resuelto?
+- Qué cambiaríais si volvisteis a empezar?
+- Qué nivel de autonomía habéis logrado y en que todavía necesitáis apoyo?
+- Cada miembro explica una aportación concreta y un aspecto que necesita reforzar.
 
 <a id="avaluacio"></a>
-## Avaluació i evidències
+## Evaluación y evidencias
 
-S’aplica l’escala existent: **1 molt insuficient · 2 insuficient · 3 acceptable · 4 notable · 5 excel·lent**. Els pesos orientatius del projecte continuen sent **20% per criteri**; el professorat confirmarà l’aplicació en la programació del mòdul. La rúbrica de defensa de més avall orienta l’observació de la presentació i no afegix una segona ponderació automàtica.
+Se aplica la escala existente: **1 muy insuficiente *· 2 insuficiente *· 3 aceptable *· 4 notable *· 5 excelente**. Los pesos orientativos del proyecto continúan siendo **20% por criterio**; el profesorado confirmará la aplicación en la programación del módulo. La rúbrica de defensa de más abajo orienta la observación de la presentación y no añade una segunda ponderación automática.
 
-### 1. EDA i qualitat de dades · 20%
+### 1. EDA y calidad de datos *· 20%
 
-| Nivell | Descripció |
+| Nivel | Descripción |
 |---|---|
-| 1 | No hi ha EDA útil o s’ignoren problemes bàsics de qualitat. |
-| 2 | Exploració superficial, sense decisions clares sobre nuls, extrems o incoherències. |
-| 3 | EDA correcta i decisions mínimes justificades sobre qualitat. |
-| 4 | L’EDA orienta el modelatge i detecta problemes rellevants amb bon criteri. |
-| 5 | Connecta qualitat, risc i impacte de negoci de manera clara i sòlida. |
+| 1 | No hay EDA útil o se ignoran problemas básicos de calidad. |
+| 2 | Exploración superficial, sin decisiones claras sobre nulos, extremos o incoherencias. |
+| 3 | EDA correcta y decisiones mínimas justificadas sobre calidad. |
+| 4 | El EDA orienta el modelado y detecta problemas relevantes con buen criterio. |
+| 5 | Conecta calidad, riesgo e impacto de negocio de manera clara y sólida. |
 
-### 2. Modelatge i validació · 20%
+### 2. Modelado y validación *· 20%
 
-| Nivell | Descripció |
+| Nivel | Descripción |
 |---|---|
-| 1 | No hi ha model usable o no està validat. |
-| 2 | Hi ha model, però sense baseline clara o mètrica adequada. |
-| 3 | Hi ha baseline i comparació bàsica amb un altre model. |
-| 4 | Validació coherent, mètriques ben triades i lectura dels errors. |
-| 5 | Comparació clara, lectura crítica i justificació sòlida de l’elecció final. |
+| 1 | No hay modelo usable o no está validado. |
+| 2 | Hay modelo, pero sin baseline clara o métrica adecuada. |
+| 3 | Hay baseline y comparación básica con otro modelo. |
+| 4 | Validación coherente, métricas muy elegidas y lectura de los errores. |
+| 5 | Comparación clara, lectura crítica y justificación sólida de la elección final. |
 
-### 3. Segmentació i lectura de perfils · 20%
+### 3. Segmentación y lectura de perfiles *· 20%
 
-| Nivell | Descripció |
+| Nivel | Descripción |
 |---|---|
-| 1 | No hi ha segmentació útil o no es pot interpretar. |
-| 2 | Hi ha agrupacions o etiquetes, sense lectura comercial clara. |
-| 3 | Segmentació acceptable i perfils bàsics descrits. |
-| 4 | Perfils clars i connectats amb decisions comercials plausibles. |
-| 5 | Perfils ben descrits que es traduïxen en prioritats o accions concretes. |
+| 1 | No hay segmentación útil o no se puede interpretar. |
+| 2 | Hay agrupaciones o hashtags, sin lectura comercial clara. |
+| 3 | Segmentación aceptable y perfiles básicos descritos. |
+| 4 | Perfiles claros y conectados con decisiones comerciales plausibles. |
+| 5 | Perfiles muy descritos que se traducen en prioridades o acciones concretas. |
 
-### 4. Traducció a negoci i visualització · 20%
+### 4. Traducción a negocio y visualización *· 20%
 
-| Nivell | Descripció |
+| Nivel | Descripción |
 |---|---|
-| 1 | El treball tècnic no es traduïx en decisions de negoci. |
-| 2 | Visualització o conclusions genèriques i desconnectades del problema. |
-| 3 | Dashboard i conclusions que permeten una lectura bàsica del negoci. |
-| 4 | Dashboard i recomanacions que ajuden a prendre decisions. |
-| 5 | Visualització i recomanacions clares, prioritzades i accionables. |
+| 1 | El trabajo técnico no se traduce en decisiones de negocio. |
+| 2 | Visualización o conclusiones genéricas y desconectadas del problema. |
+| 3 | Dashboard y conclusiones que permiten una lectura básica del negocio. |
+| 4 | Dashboard y recomendaciones que ayudan a tomar decisiones. |
+| 5 | Visualización y recomendaciones claras, priorizadas y accionables. |
 
-### 5. Criteri tècnic i defensa global · 20%
+### 5. Criterio técnico y defensa global *· 20%
 
-| Nivell | Descripció |
+| Nivel | Descripción |
 |---|---|
-| 1 | No es justifiquen decisions ni es reconeixen límits. |
-| 2 | Justificació parcial i poca consciència de riscos o límits. |
-| 3 | Defensa coherent en l’essencial, amb límits principals reconeguts. |
-| 4 | Expliquen bé models, segments, visuals i millores possibles. |
-| 5 | Defensa madura que connecta dades, mètriques, negoci, límits i següents passos. |
+| 1 | No se justifican decisiones ni se reconocen límites. |
+| 2 | Justificación parcial y poca conciencia de riesgos o límites. |
+| 3 | Defensa coherente en el esencial, con límites principales reconocidos. |
+| 4 | Explican bien modelos, segmentos, visuales y mejoras posibles. |
+| 5 | Defensa madura que conecta datos, métricas, negocio, límites y siguientes pasos. |
 
-### Full de valoració
+### Hoja de valoración
 
-| Criteri | Pes orientatiu | Nivell 1–5 | Evidència i observacions |
+| Criterio | Peso orientativo | Nivel 1–5 | Evidencia y observaciones |
 |---|---:|---|---|
-| EDA i qualitat | 20% | … | … |
-| Modelatge i validació | 20% | … | … |
-| Segmentació i perfils | 20% | … | … |
-| Negoci i visualització | 20% | … | … |
-| Criteri tècnic i defensa | 20% | … | … |
+| EDA y calidad | 20% | … | … |
+| Modelado y validación | 20% | … | … |
+| Segmentación y perfiles | 20% | … | … |
+| Negocio y visualización | 20% | … | … |
+| Criterio técnico y defensa | 20% | … | … |
 
-### Observació de la defensa oral
+### Observación de la defensa oral
 
-| Aspecte | 1 | 2 | 3 | 4 | 5 |
+| Aspecto | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
-| Comprensió del problema | No l’expliquen o el confonen | Explicació parcial amb errors | Essencial correcte | Connecten problema, solució i context | Explicació clara amb visió crítica |
-| Justificació tècnica | Decisions arbitràries | Justificació feble | Decisions principals coherents | Justificació sòlida vinculada al projecte | Comparació madura i consciència de límits |
-| Demo funcional | No funciona o no es pot seguir | Parcial i poc clara | Funciona en l’essencial | Mostra bé les parts importants | Mostra amb claredat funcionament, límits i casos especials |
-| Comunicació | Confusa | Entenedora amb buits | Clara en general | Ordenada i professional | Sintètica, segura i adaptada al públic |
-| Límits i millores | No els detecten | Els enumeren sense explicar | Expliquen límits i una millora | Connecten riscos i millores | Lectura crítica sòlida del sistema i la seua evolució |
+| Comprensión del problema | No lo explican o lo confunden | Explicación parcial con errores | Esencial correcto | Conectan problema, solución y contexto | Explicación clara con visión crítica |
+| Justificación técnica | Decisiones arbitrarias | Justificación débil | Decisiones principales coherentes | Justificación sólida vinculada al proyecto | Comparación madura y conciencia de límites |
+| Demo funcional | No funciona o no se puede seguir | Parcial y poco clara | Funciona en la esencial | Muestra bien las partes importantes | Muestra con claridad funcionamiento, límites y casos especiales |
+| Comunicación | Confusa | Entendedora con vacíos | Clara en general | Ordenada y profesional | Sintética, segura y adaptada al público |
+| Límites y mejoras | No los detectan | Los enumeran sin explicar | Explican límites y una mejora | Conectan riesgos y mejoras | Lectura crítica sólida del sistema y su evolución |
 
-Anoteu el nivell i una evidència per aspecte, una fortalesa tècnica, un aspecte a millorar i una recomanació per a la següent iteració.
+Anotáis el nivel y una evidencia por aspecto, una fortaleza técnica, un aspecto a mejorar y una recomendación para la siguiente iteración.
 
-## Checklist abans de la defensa
+## Checklist antes de la defensa
 
-- [ ] La pregunta de negoci és concreta i les conclusions hi responen.
-- [ ] El procés de dades és reproduïble i les transformacions estan justificades.
-- [ ] Cap predictor anticipat incorpora informació posterior del mateix mes.
-- [ ] Hi ha una comparació justa i una prova temporal reservada.
-- [ ] Els perfils de client tenen una interpretació i una acció proposada.
-- [ ] El dashboard diferencia real i previsió i usa agregacions correctes.
-- [ ] La memòria, les evidències i les instruccions d’execució estan disponibles.
-- [ ] Tots els membres poden explicar decisions, aportacions i límits.
-- [ ] La defensa dura 8–10 minuts i mostra una recomanació concreta.
+- [ ] La pregunta de negocio es concreta y las conclusiones  responden.
+- [ ] El proceso de datos es reproducible y las transformaciones están justificadas.
+- [ ] Ningún predictor anticipado incorpora información posterior del mismo mes.
+- [ ] Hay una comparación justa y una prueba temporal reservada.
+- [ ] Los perfiles de cliente tienen una interpretación y una acción propuesta.
+- [ ] Lo dashboard diferencia real y previsión y usa agregaciones correctas.
+- [ ] La memoria, las evidencias y las instrucciones de ejecución están disponibles.
+- [ ] Todos los miembros pueden explicar decisiones, aportaciones y límites.
+- [ ] La defensa dura 8–10 minutos y muestra una recomendación concreta.
 
-## Índex de consulta de píndoles
+## Índice de consulta de píldoras
 
-| Píndola | Moment principal |
+| Píldora | Momento principal |
 |---|---|
-| [Python i entorns](PINDOLES/python-i-entorns.md) | Setmana 1, reforç inicial |
-| [Jupyter](PINDOLES/jupyter-notebooks.md) | Setmana 1 |
-| [Python per a dades](PINDOLES/python-per-a-dades-i.md) | Setmanes 1–2 |
-| [EDA i qualitat](PINDOLES/eda-i-qualitat-de-dades.md) | Setmana 1 |
-| [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md) | Setmanes 2, 4 i 6 |
-| [Scikit-learn](PINDOLES/scikit-learn-intro.md) | Setmanes 3–4 |
-| [Validació](PINDOLES/validacio-de-models.md) | Setmanes 2, 3 i 5 |
-| [Clustering](PINDOLES/clustering-i-segmentacio.md) | Setmana 4 |
-| [XAI](PINDOLES/xai-shap-lime.md) | Setmana 5; implementació avançada opcional |
-| [Dashboards](PINDOLES/dashboards-i-powerbi.md) | Setmana 6 |
-| [MLflow](PINDOLES/mlflow-intro.md) | Ampliació opcional des de setmana 3 |
+| [Python i entorns](PINDOLES/python-i-entorns.md) | Semana 1, refuerzo inicial |
+| [Jupyter](PINDOLES/jupyter-notebooks.md) | Semana 1 |
+| [Python per a dades](PINDOLES/python-per-a-dades-i.md) | Semanas 1–2 |
+| [EDA i qualitat](PINDOLES/eda-i-qualitat-de-dades.md) | Semana 1 |
+| [Visualització](PINDOLES/visualitzacio-amb-matplotlib-i-seaborn.md) | Semanas 2, 4 y 6 |
+| [Scikit-learn](PINDOLES/scikit-learn-intro.md) | Semanas 3–4 |
+| [Validació](PINDOLES/validacio-de-models.md) | Semanas 2, 3 y 5 |
+| [Clustering](PINDOLES/clustering-i-segmentacio.md) | Semana 4 |
+| [XAI](PINDOLES/xai-shap-lime.md) | Semana 5; implementación avanzada opcional |
+| [Dashboards](PINDOLES/dashboards-i-powerbi.md) | Semana 6 |
+| [MLflow](PINDOLES/mlflow-intro.md) | Ampliación opcional desde semana 3 |

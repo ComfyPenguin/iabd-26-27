@@ -1,451 +1,451 @@
-# Glossari de termes tècnics
+# Glosario de términos técnicos
 
-Glossari de consulta ràpida amb el vocabulari tècnic que apareix al llarg del curs d'especialització en IA i Big Data. Cada entrada inclou l'àmbit al qual pertany entre claudàtors.
+Glosario de consulta rápida con el vocabulario técnico que aparece a lo largo del curso de especialización en IA y Big Fecha. Cada entrada incluye el ámbito al cual pertenece entre corchetes.
 
-**Àmbits:** [IA] Intel·ligència Artificial · [ML] Machine Learning · [Dades] Ciència de dades · [BBDD] Bases de dades · [Big Data] · [Streaming] · [IoT] · [Observabilitat] · [DevOps] Desenvolupament i operació · [Visualització] · [Desenvolupament] · [Seguretat] · [Context] Expressions pròpies del context de negoci en què treballen els projectes.
+**Ámbitos:** [IA] Inteligencia Artificial *· [ML] Machine Learning *· [Datos] Ciencia de datos *· [BBDD] Bases de datos *· [Big Fecha] *· [Streaming] *· [Yate] *· [Observabilitat] *· [DevOps] Desarrollo y operación *· [Visualización] *· [Desarrollo] *· [Seguridad] *· [Contexto] Expresiones propias del contexto de negocio en que trabajan los proyectos.
 
 ---
 
 ## A
 
-- **Accuracy (exactitud)** [ML] — Mètrica que mesura quants encerts hi ha en relació amb el total de prediccions. Cal mirar-la amb cautela quan les classes del dataset estan desequilibrades.
+- ***Accuracy (exactitud)** [ML] — Métrica que medida cuántos aciertos hay en relación con el total de predicciones. Hay que mirarla con cautela cuando las clases del dataset están desequilibradas.
 
-- **Agent (d'IA)** [IA] — Sistema que percep l'entorn, decideix i actua per assolir un objectiu. Els agents simples s'integren amb freqüència dins d'una aplicació.
+- **Agente (de IA)** [IA] — Sistema que percibe el entorno, decide y actúa para lograr un objetivo. Los agentes simples se integran con frecuencia dentro de una aplicación.
 
-- **Agregació** [BBDD] — Operació que resumeix un grup de registres o documents (suma, mitjana, comptatge). Més enllà de SQL, és típica de MongoDB i indispensable als dashboards (Projecte P2).
+- **Agregación** [BBDD] — Operación que resume un grupo de registros o documentos (suma, media, conteo). Más allá de SQL, es típica de MongoDB e indispensable a los dashboards (Proyecto P2).
 
-- **Anàlisi de sentiments** [IA] — Tasca de PLN que identifica i classifica opinions o emocions expressades en text (positiu, negatiu, neutral), útil per a monitoritzar opinions de clients o xarxes socials.
+- **Análisis de sentimientos** [IA] — Tarea de PLN que identifica y clasifica opiniones o emociones expresadas en texto (positivo, negativo, neutral), útil para monitorizar opiniones de clientes o redes sociales.
 
-- **API** *(Application Programming Interface)* [Desenvolupament] — Interfície que permet que dos sistemes es comuniquen i intercanvien dades de manera estandarditzada (per exemple, via REST o GraphQL).
+- **APIO** *(Application Programming Interface)* [Desarrollo] — Interfaz que permite que dos sistemas se comunican e intercambian datos de manera estandarizada (por ejemplo, vía RISTRA o GraphQL).
 
-- **Aprenentatge no supervisat** [ML] — Tipus de ML que treballa sense etiquetes per descobrir estructures ocultes en les dades, com ara grups de clients (clustering).
+- **Aprendizaje no supervisado** [ML] — Tipo de ML que trabaja sin hashtags para descubrir estructuras ocultas en los datos, como por ejemplo grupos de clientes (clustering).
 
-- **Aprenentatge per reforç** *(reinforcement learning)* [ML] — Tipus de ML en què un agent aprèn a prendre decisions mitjançant proves i errors, rebent recompenses o sancions per les seues accions (entorn, política, recompensa).
+- **Aprendizaje por refuerzo** *(reinforcement learning)* [ML] — Tipo de ML en que un agente aprende a tomar decisiones mediante pruebas y errores, recibiendo recompensas o sanciones por sus acciones (entorno, política, recompensa).
 
-- **Aprenentatge supervisat** [ML] — Tipus de ML en què el model aprèn a partir de dades etiquetades, per fer classificacions o prediccions de valors numèrics.
+- **Aprendizaje supervisado** [ML] — Tipo de ML en que el modelo aprende a partir de datos etiquetados, para hacer clasificaciones o predicciones de valores numéricos.
 
-- **Arbre de decisió** [ML] — Model que divideix les dades en branques mitjançant decisions successives. És la base de tècniques més potents com Random Forest.
+- **Árbol de decisión** [ML] — Modelo que divide los datos en ramas mediante decisiones sucesivas. Es la base de técnicas más potentes como Random Monte.
 
-- **Arquitectura** [Desenvolupament] — Disseny d'alt nivell del sistema: quines peces el componen (dades, model, aplicació, eixida), com es connecten i per què s'han triat aquestes tecnologies.
+- **Arquitectura** [Desarrollo] — Diseño de alto nivel del sistema: qué piezas lo componen (datos, modelo, aplicación, salida), como se conectan y por qué se han elegido estas tecnologías.
 
-- **Automatització** [DevOps] — Conversió de tasques manuals en processos automàtics, per exemple mitjançant workflows.
+- **Automatización** [DevOps] — Conversión de tareas manuales en procesos automáticos, por ejemplo mediante workflows.
 
-- **Avro** [Big Data] — Sistema de serialització de dades de codi obert que utilitza esquemes JSON i dades binàries compactes, dissenyat per a Big Data i fluxos de streaming (compatible amb Kafka i Schema Registry).
+- ***Avro** [Big Fecha] — Sistema de serialización de datos de código abierto que utiliza esquemas JSON y datos binarios compactos, diseñado para Big Fecha y flujos de streaming (compatible con Kafka y Schema Registry).
 
 ## B
 
-- **Baseline** [ML] — Model o solució de referència, simple i barat de construir, contra el qual es comparen les solucions més avançades. Sense baseline no es pot justificar que un model "funciona".
+- ***Baseline** [ML] — Modelo o solución de referencia, simple y barato de construir, contra el cual se comparan las soluciones más avanzadas. Sin baseline no se puede justificar que un modelo "funciona".
 
-- **Base de coneixement documental** [IA] — Repositori de documents preparats i organitzats que un sistema utilitza per recuperar informació rellevant. Ha d'estar neta i localitzable, no ser una carpeta caòtica.
+- **Base de conocimiento documental** [IA] — Repositorio de documentos preparados y organizados que un sistema utiliza para recuperar información relevante. Tiene que estar limpia y localizable, no ser una carpeta caótica.
 
-- **Big Data** [Big Data] — Tractament de volums de dades tan grans o ràpids que calen infraestructures distribuïdes (Spark, Cassandra, Kafka) en lloc d'aproximacions tradicionals.
+- ***Big Fecha** [Big Fecha] — Tratamiento de volúmenes de datos tan grandes o rápidos que hacen falta infraestructuras distribuidas (Spark, Cassandra, Kafka) en lugar de aproximaciones tradicionales.
 
-- **Biaix** *(bias)* [IA] — Desviació sistemàtica en les dades o en el model que produeix resultats esbiaixats o discriminatoris. És un risc ètic que cal identificar i mitigar.
+- **Sesgo** *(bias)* [IA] — Desviación sistemática en los datos o en el modelo que produce resultados sesgados o discriminatorios. Es un riesgo ético que hay que identificar y mitigar.
 
-- **BI** *(Business Intelligence)* [Visualització] — Conjunt d'eines i processos per transformar dades en informació útil per a la presa de decisions empresarials.
+- ***BI** *(Business Intelligence)* [Visualización] — Conjunto de herramientas y procesos para transformar datos en información útil para la toma de decisiones empresariales.
 
-- **Bottleneck (coll de botella)** [Context] — Punt de congestió d'un procés que redueix la capacitat global del sistema. En el projecte logístic es vol predir en les franges de màxima activitat.
+- ***Bottleneck (cuello de botella)** [Contexto] — Punto de congestión de un proceso que reduce la capacidad global del sistema. En el proyecto logístico se quiere predecir en las franjas de máxima actividad.
 
 ## C
 
-- **Caixa negra** *(black box)* [IA] — Sistema lògic intern del qual no es pot inspeccionar, i que només s'avalua per les seues entrades i eixides. Els models de deep learning tendeixen a ser-ho.
+- **Caja negra** *(black box)* [IA] — Sistema lógico interno del cual no se puede inspeccionar, y que solo se evalúa por sus entradas y salidas. Los modelos de deep learning tienden a serlo.
 
-- **Cassandra** [Big Data] — Base de dades NoSQL distribuïda, dissenyada per a grans volums de dades amb alta disponibilitat i particionat horitzontal.
+- ***Cassandra** [Big Fecha] — Base de datos NoSQL distribuida, diseñada para grandes volúmenes de datos con alta disponibilidad y particionat horizontal.
 
-- **Checksum** [Dades] — Valor calculat a partir d'un fitxer o conjunt de dades que permet verificar que no s'han corromput ni alterat.
+- ***Checksum** [Datos] — Valor calculado a partir de un fichero o conjunto de datos que permite verificar que no se han corrompido ni alterado.
 
-- **Chunk / Chunking** [IA] — Divisió de documents en fragments més xicotets per poder-los indexar i processar, molt típica en fluxos RAG.
+- ***Chunk / Chunking** [IA] — División de documentos en fragmentos más pequeños para poderlos indexar y procesar, muy típica en flujos RAG.
 
-- **Classificació** [ML] — Tasca d'aprenentatge supervisat que assigna a cada dada una categoria o etiqueta entre un conjunt predefinit. Al Projecte P1 s'aplica a la classificació de tickets.
+- **Clasificación** [ML] — Tarea de aprendizaje supervisado que asigna a cada dato una categoría o hashtag entre un conjunto predefinido. Al Proyecto P1 se aplica a la clasificación de tickets.
 
-- **Cloud (núvol)** [DevOps] — Model de desplegament en què els serveis s'executen en infraestructura remota i externalitzada en lloc d'equips locals.
+- ***Cloud (nube)** [DevOps] — Modelo de despliegue en que los servicios se ejecutan en infraestructura remota y externalizada en lugar de equipos locales.
 
-- **Clustering** [ML] — Tècnica d'aprenentatge no supervisat que agrupa dades semblants en clústers, sense etiquetes prèvies. La base de la segmentació de clients.
+- ***Clustering** [ML] — Técnica de aprendizaje no supervisado que agrupa datos parecidos en clústeres, sin hashtags previos. La base de la segmentación de clientes.
 
-- **CNN** *(Convolutional Neural Network)* [IA] — Xarxa neuronal convolucional, arquitectura de deep learning especialitzada a processar imatges. És la base de models com YOLO.
+- **CNN** *(Convolutional Neural Network)* [IA] — Red neuronal convolucional, arquitectura de deep learning especializada a procesar imágenes. Es la base de modelos como YOLO.
 
-- **Codificació** *(encoding)* [Dades] — Transformació de variables categòriques en valors numèrics perquè el model les puga processar.
+- **Codificación** *(encoding)* [Datos] — Transformación de variables categóricas en valores numéricos porque el modelo las pueda procesar.
 
-- **Consistència (de dades)** [BBDD] — Propietat que garanteix que les dades romanen correctes i coherents en sistemes distribuïts i replicats.
+- **Consistencia (de datos)** [BBDD] — Propiedad que garantiza que los datos permanecen correctos y coherentes en sistemas distribuidos y replicados.
 
-- **Consumer (consumidor)** [Streaming] — Aplicació que es connecta a un sistema de streaming (Kafka) i processa els missatges publicats en els topics.
+- ***Consumer (consumidor)** [Streaming] — Aplicación que se conecta a un sistema de streaming (Kafka) y procesa los mensajes publicados en los topics.
 
-- **Contenidor** [DevOps] — Unitat lleugera que empaqueta una aplicació amb totes les seues dependències perquè s'execute de manera aïllada i igual en qualsevol entorn.
+- **Contenedor** [DevOps] — Unidad ligera que empaqueta una aplicación con todas sus dependencias porque se ejecute de manera aislada e igual en cualquier entorno.
 
-- **Contracte de dades** *(data contract)* [Big Data] — Acord formal sobre l'estructura i la qualitat de les dades entre qui les produeix i qui les consumeix. Garanteix l'evolució controlada dels formats.
+- **Contrato de datos** *(fecha contract)* [Big Fecha] — Acuerdo formal sobre la estructura y la calidad de los datos entre quienes las produce y quienes las consume. Garantiza la evolución controlada de los formatos.
 
-- **Corpus** [IA] — Conjunt de documents o textos que alimenten un sistema de classificació o un flux RAG. Ha de ser propi del projecte, no un chatbot genèric.
+- **Corpus** [IA] — Conjunto de documentos o textos que alimentan un sistema de clasificación o un flujo RAG. Tiene que ser propio del proyecto, no un chatbot genérico.
 
-- **Correlació** [Dades] — Relació estadística entre dues variables: fins a quin punt una varia de manera associada a l'altra.
+- **Correlación** [Datos] — Relación estadística entre dos variables: hasta qué punto una varía de manera asociada a la otra.
 
-- **Cross-validation (validació creuada)** [ML] — Tècnica que divideix les dades en diverses parts i alterna entrenament i avaluació per estimar millor la capacitat de generalització del model.
+- **Cross-validation (validación cruzada)** [ML] — Técnica que divide los datos en varias partes y alterna entrenamiento y evaluación para estimar mejor la capacidad de generalización del modelo.
 
-- **Cua de camions** *(truck queue)* [Context] — Indicador operatiu de saturació d'un terminal: el volum de camions en espera. Si supera el llindar operatiu, es genera l'alerta.
+- **Cola de camiones** *(truck queue)* [Contexto] — Indicador operativo de saturación de un terminal: el volumen de camiones en espera. Si supera el umbral operativo, se genera el alerta.
 
 ## D
 
-- **Dades documentals** [BBDD] — Dades emmagatzemades en format de document (per exemple, en MongoDB), en lloc de taules relacionals rígides.
+- **Datos documentales** [BBDD] — Datos almacenados en formato de documento (por ejemplo, en MongoDB), en lugar de mesas relacionales rígidas.
 
-- **Dades en temps real** [Big Data] — Dades que es generen i processen de manera (quasi) immediata, com els esdeveniments de sensors o terminals.
+- **Datos en tiempo real** [Big Fecha] — Datos que se generan y procesan de manera (casi) inmediata, como los acontecimientos de sensores o terminales.
 
-- **Dades històriques** [Dades] — Registres recollits en el passat, utilitzats com a base per a la construcció i validació de models predictius.
+- **Datos históricos** [Datos] — Registros recogidos en el pasado, utilizados como base para la construcción y validación de modelos predictivos.
 
-- **Dades tabulars** [Dades] — Dades organitzades en taules de files i columnes, el format estàndard de treball amb Pandas i Power BI.
+- **Datos tabulares** [Datos] — Datos organizados en tablas de filas y columnas, el formato estándar de trabajo con Pandas y Power BI.
 
-- **Dashboard** [Visualització] — Panell visual que mostra dades, KPIs i alertes consolidades per ajudar a prendre decisions. No ha de mostrar tot: només el que ajuda a decidir millor.
+- ***Dashboard** [Visualización] — Panel visual que muestra datos, KPIs y alertas consolidadas para ayudar a tomar decisiones. No tiene que mostrar todo: solo el que ayuda a decidir mejor.
 
-- **Dashboard executiu** [Visualització] — Panell dissenyat per a la direcció, pensat per a la lectura ràpida d'indicadors estratègics.
+- ***Dashboard ejecutivo** [Visualización] — Panel diseñado para la dirección, pensado para la lectura rápida de indicadores estratégicos.
 
-- **Data mining** *(excavació de dades)* [Dades] — Procés d'explorar i analitzar grans volums de dades per descobrir patrons, correlacions i coneixements útils que no són obvis a primera vista.
+- **Fecha mining** *(excavación de datos)* [Datos] — Proceso de explorar y analizar grandes volúmenes de datos para descubrir patrones, correlaciones y conocimientos útiles que no son obvios a primera vista.
 
-- **Databricks Lakehouse** [Big Data] — Plataforma unificada que combina les capacitats de data warehouse i data lake sobre una arquitectura oberta, facilitant l'anàlisi i el machine learning sobre grans volums.
+- ***Databricks Lakehouse** [Big Fecha] — Plataforma unificada que combina las capacidades de fecha warehouse y fecha lake sobre una arquitectura abierta, facilitando el análisis y el machine learning sobre grandes volúmenes.
 
-- **Dataset (conjunt de dades)** [Dades] — Col·lecció estructurada de dades utilitzada per analitzar, entrenar o validar models.
+- ***Dataset (conjunto de datos)** [Datos] — Colección estructurada de datos utilizada para analizar, entrenar o validar modelos.
 
-- **DBSCAN** [ML] — Algorisme de clustering basat en densitat que detecta grups de forma irregular i, a la vegada, identifica punts anòmals (outliers).
+- ***DBSCAN** [ML] — Algoritmo de clustering basado en densidad que detecta grupos de forma irregular y, a la vegada, identifica puntos anómalos (outliers).
 
-- **Decisió de negoci** [Context] — Decisió estratègica empresarial (estoc, campanya, segment de clients) que es recolza en els resultats de les dades i dels models.
+- **Decisión de negocio** [Contexto] — Decisión estratégica empresarial (stock, campaña, segmento de clientes) que se apoya en los resultados de los datos y de los modelos.
 
-- **Deep Learning (DL)** [IA] — Subcamp del machine learning basat en xarxes neuronals profundes, capaç de treballar amb dades complexes com imatges, àudio o també text.
+- ***Deep Learning (DL)** [IA] — Subcamp del machine learning basado en redes neuronales profundas, capaz de trabajar con datos complejos como imágenes, audio o también texto.
 
-- **Delta Lake** [Big Data] — Capa d'emmagatzematge oberta que aporta transaccions ACID, esquemes evolutius i versionat a data lakes, fent-los més fiables per a analítica i ML.
+- **Delta Lake** [Big Fecha] — Capa de almacenamiento abierta que aporta transacciones ACID, esquemas evolutivos y versionado a fecha lakes, haciéndolos más fiables para analítica y ML.
 
-- **Desplegament (deploy)** [DevOps] — Procés de posar en marxa un servei o aplicació en un entorn operatiu, local o en el núvol.
+- **Despliegue (deploy)** [DevOps] — Proceso de poner en marcha un servicio o aplicación en un entorno operativo, local o en la nube.
 
-- **Detecció d'objectes** [IA] — Tasca de visió per computador que localitza i identifica objectes dins d'una imatge, com fa YOLO.
+- **Detección de objetos** [IA] — Tarea de visión por computador que localiza e identifica objetos dentro de una imagen, como hace YOLO.
 
-- **Deute tècnic** [Desenvolupament] — Costos d'execució de decisions ràpides (codi poc estructurat, documentació absent) que caldrà "pagar" amb millores futures.
+- **Deuda técnica** [Desarrollo] — Costes de ejecución de decisiones rápidas (código poco estructurado, documentación ausente) que habrá que "pagar" con mejoras futuras.
 
-- **Diagrama de dispersió** [Visualització] — Gràfic que mostra la relació entre dues variables numèriques mitjançant punts.
+- **Diagrama de dispersión** [Visualización] — Gráfico que muestra la relación entre dos variables numéricas mediante puntos.
 
-- **Distribució** [Dades] — Forma en què es reparteixen els valors d'una variable (freqüències per valor), permetent detectar patrons i anomalies.
+- **Distribución** [Datos] — Forma en que se reparten los valores de una variable (frecuencias por valor), permitiendo detectar patrones y anomalías.
 
-- **Docker** [DevOps] — Plataforma de contenidors que permet construir, desplegar i executar aplicacions de manera aïllada i portable.
+- ***Docker** [DevOps] — Plataforma de contenedores que permite construir, desplegar y ejecutar aplicaciones de manera aislada y portable.
 
-- **Docker Compose** [DevOps] — Eina per definir i llançar aplicacions multi-contenidor a partir d'un fitxer de configuració (YAML).
+- ***Docker Compongo** [DevOps] — Herramienta para definir y lanzar aplicaciones multe-contenedor a partir de un fichero de configuración (YAML).
 
 ## E
 
-- **EDA** *(Exploratory Data Analysis)* [Dades] — Anàlisi exploratòria de dades: inspecció inicial per entendre l'estructura, patrons, outliers i qualitat d'un dataset abans de modelar.
+- ***EDA** *(Exploratory Fecha Analysis)* [Datos] — Análisis exploratorio de datos: inspección inicial para entender la estructura, patrones, outliers y calidad de un dataset antes de modelar.
 
-- **Edge AI** [IA] — IA executada de forma local en el dispositiu de vora (edge), sense dependre d'un servidor central.
+- ***Edge AI** [IA] — IA ejecutada de forma local en el dispositivo de borde (edge), sin depender de un servidor central.
 
-- **ELK stack** *(Elasticsearch, Logstash, Kibana)* [Observabilitat] — Conjunt d'eines per a la ingesta, cerca i visualització de logs i altres dades d'operació.
+- ***ELK stack** *(Elasticsearch, Logstash, Kibana)* [Observabilitat] — Conjunto de herramientas para la ingesta, busca y visualización de logs y otros datos de operación.
 
-- **Embedding** [IA] — Representació vectorial de text (o d'altres dades) que codifica el seu significat, de manera que valors o conceptes semblants queden a prop en l'espai vectorial.
+- ***Embedding** [IA] — Representación vectorial de texto (u otros datos) que codifica su significado, de forma que valores o conceptos parecidos quedan cerca en el espacio vectorial.
 
-- **Enginyeria de variables** *(feature engineering)* [ML] — Procés de crear, transformar i seleccionar variables perquè el model aprenga millor.
+- **Ingeniería de variables** *(feature engineering)* [ML] — Proceso de crear, transformar y seleccionar variables porque el modelo aprenda mejor.
 
-- **Esdeveniment** *(event)* [Streaming] — Unitat mínima d'informació que flueix en temps real per un sistema de missatgeria, com un canvi d'estat d'un sensor o terminal.
+- **Acontecimiento** *(event)* [Streaming] — Unidad mínima de información que fluye en tiempo real por un sistema de mensajería, como un cambio de estado de un sensor o terminal.
 
-- **Escalat (de variables)** [Dades] — Normalització o estandardització de variables numèriques perquè tinguen rangs comparables dins del model.
+- **Escalado (de variables)** [Datos] — Normalización o estandarización de variables numéricas porque tengan rangos comparables dentro del modelo.
 
-- **Esquema de dades** [BBDD] — Definició formal de com s'organitzen les dades: camps, tipus i relacions.
+- **Esquema de datos** [BBDD] — Definición formal de cómo se organizan los datos: campos, tipos y relaciones.
 
 ## F
 
-- **F1-score** [ML] — Mitjana harmònica entre precisió i recall; resumeix en un sol nombre l'equilibri entre els dos i és molt usada per valorar classificadors.
+- **F1-score** [ML] — Media armónica entre precisión y recall; resume en un solo número el equilibrio entre los dos y es muy usada para valorar clasificadores.
 
-- **Fals positiu / fals negatiu** [ML] — Errors de classificació: el model prediu un positiu que no ho és, o no detecta un positiu que ho era. Els falsos positius són especialment problemàtics en entorns operatius.
+- **Falso positivo / falso negativo** [ML] — Errores de clasificación: el modelo predice un positivo que no lo es, o no detecta un positivo que lo era. Los falsos positivos son especialmente problemáticos en entornos operativos.
 
-- **FastAPI** [Desenvolupament] — Framework modern de Python per a crear APIs, incloses les REST.
+- ***FastAPI** [Desarrollo] — Framework moderno de Python para crear Apios, incluidas las RISTRA.
 
-- **Fine-tuning** *(ajust fi)* [IA] — Procés de prendre un model preentrenat i ajustar-lo amb dades específiques del domini per millorar-ne el rendiment en una tasca concreta.
+- **Fino-tuning** *(ajuste fino)* [IA] — Proceso de tomar un modelo preentrenat y ajustarlo con datos específicos del dominio para mejorar el rendimiento en una tarea concreta.
 
-- **FIWARE / Orion** [IoT] — Plataforma oberta de gestió de context per a IoT; Orion és el "context broker" que gestiona les dades de context i les seues subscripcions en temps real.
+- ***FIWARE / Orion** [Yate] — Plataforma abierta de gestión de contexto para Yate; Orion es el "contexto broker" que gestiona los datos de contexto y sus suscripciones en tiempo real.
 
-- **Flask** [Desenvolupament] — Microframework lleuger de Python per a crear aplicacions web i APIs.
+- ***Flask** [Desarrollo] — Microframework ligero de Python para crear aplicaciones web y Apios.
 
 ## G
 
-- **Generalització** [ML] — Capacitat d'un model de funcionar bé amb dades que no ha vist durant l'entrenament. És l'objectiu real de qualsevol model.
+- **Generalización** [ML] — Capacidad de un modelo de funcionar bien con datos que no ha visto durante el entrenamiento. Es el objetivo real de cualquier modelo.
 
-- **Git** [Desenvolupament] — Sistema de control de versions que permet portar l'historial de canvis del codi i treballar en equip de manera ordenada.
+- ***Git** [Desarrollo] — Sistema de control de versiones que permite llevar el historial de cambios del código y trabajar en equipo de manera ordenada.
 
-- **Gradient Boosting** [ML] — Tècnica d'ensemble que construeix models de manera seqüencial, corregint els errors dels models anteriors.
+- **Gradiente Boosting** [ML] — Técnica de ensemble que construye modelos de manera secuencial, corrigiendo los errores de los modelos anteriores.
 
-- **Grafana** [Observabilitat] — Eina de visualització i dashboarding de mètriques, habitualment acompanyada de Prometheus; genera panells i alertes.
+- ***Grafana** [Observabilitat] — Herramienta de visualización y dashboarding de métricas, habitualmente acompañada de Prometheus; genera paneles y alertas.
 
-- **GraphQL** [Desenvolupament] — Llenguatge de consulta d'APIs alternatiu a REST que permet al client demanar exactament les dades que necessita.
+- ***GraphQL** [Desarrollo] — Lenguaje de consulta de Apios alternativo a RISTRA que permite al cliente pedir exactamente los datos que necesita.
 
-- **Gradio** [Desenvolupament] — Eina per crear interfícies web interactives per a models d'IA/ML de forma ràpida.
+- ***Gradio** [Desarrollo] — Herramienta para crear interfaces web interactivas para modelos de IA/ML de forma rápida.
 
-- **Guardrails** [IA] — Mecanismes de seguretat que limiten les respostes d'un sistema d'IA perquè no genere contingut inadequat o fora de context (per exemple, obligar-lo a dir "no ho sé").
+- ***Guardrails** [IA] — Mecanismos de seguridad que limitan las respuestas de un sistema de IA porque no genero contenido inadecuado o fuera de contexto (por ejemplo, obligarlo a decir "no lo sé").
 
 ## H
 
-- **Heurística** [IA] — Regla pràctica o estratègia que troba solucions prou bones sense explorar totes les possibilitats (base de la cerca en sistemes d'IA).
+- **Heurística** [IA] — Regla práctica o estrategia que encuentra soluciones basta buenas sin explorar todas las posibilidades (base de la busca en sistemas de IA).
 
 ## I
 
-- **IA (Intel·ligència Artificial)** [IA] — Disciplina que persegueix que les màquines facen tasques que requereixen intel·ligència: raonar, percebre, comprendre llenguatge i aprendre.
+- ***IA (Inteligencia Artificial)** [IA] — Disciplina que persigue que las máquinas hagan tareas que requieren inteligencia: razonar, percibir, comprender lenguaje y aprender.
 
-- **Iceberg** [Big Data] — Format de taules obert i escalable dissenyat per a data lakes, que permet consultes analítiques eficients, evolució d'esquemes i versionat de dades.
+- **Iceberg** [Big Fecha] — Formado de mesas abierto y escalable diseñado para fecha lakes, que permite consultas analíticas eficientes, evolución de esquemas y versionado de datos.
 
-- **Imputació** [Dades] — Tècnica per omplir valors que falten en un dataset amb estimacions raonables, en lloc de descartar els registres.
+- **Imputación** [Datos] — Técnica para llenar valores que faltan en un dataset con estimaciones razonables, en lugar de descartar los registros.
 
-- **Inferència** [IA] — Execució d'un model ja entrenat sobre dades noves per obtindre prediccions o deteccions (per exemple, passar una imatge a YOLO).
+- **Inferencia** [IA] — Ejecución de un modelo ya entrenado sobre datos nuevos para obtener predicciones o detecciones (por ejemplo, pasar una imagen a YOLO).
 
-- **Integració de serveis** [Desenvolupament] — Connexió i coordinació de components o serveis perquè funcionen com un sistema únic.
+- **Integración de servicios** [Desarrollo] — Conexión y coordinación de componentes o servicios porque funcionan como un sistema único.
 
-- **Integració vertical** [Desenvolupament] — Flux que recorre totes les capes de la solució de punta a punta: des de la dada fins a la decisió o eixida operativa. Cada projecte ha de mostrar com a mínim una.
+- **Integración vertical** [Desarrollo] — Flujo que recorre todas las capas de la solución de punta a punta: desde el dato hasta la decisión o salida operativa. Cada proyecto tiene que mostrar como mínimo una.
 
-- **Integritat de dades** [Dades] — Garantia que les dades són completes, correctes i no han estat alterades de manera no autoritzada.
+- **Integridad de datos** [Datos] — Garantía que los datos son completos, correctos y no han sido alteradas de manera no autorizada.
 
-- **Interpretabilitat** [IA] — Capacitat d'entendre què fa i per què un model; un pas previ a l'explicabilitat.
+- ***Interpretabilitat** [IA] — Capacidad de entender qué hace y por qué un modelo; un paso previo al explicabilitat.
 
-- **IoT (Internet de les Coses)** [IoT] — Xarxa de dispositius connectats (sensors, actuadors) que recullen i envien dades de l'entorn en temps real.
+- **Yate (Internet de las Cosas)** [Yate] — Red de dispositivos conectados (sensores, actuadores) que recogen y envían datos del entorno en tiempo real.
 
 ## K
 
-- **K-Means** [ML] — Algorisme de clustering que agrupa les dades en K grups segons la distància al centróide del grup.
+- **K-Means** [ML] — Algoritmo de clustering que agrupa los datos en K grupos según la distancia al centróide del grupo.
 
-- **Kafka** [Streaming] — Plataforma de missatgeria distribuïda per processar fluxos d'esdeveniments en temps real. Els missatges s'organitzen en topics i els gestionen producers i consumers.
+- **Kafka** [Streaming] — Plataforma de mensajería distribuida para procesar flujos de acontecimientos en tiempo real. Los mensajes se organizan en topics y los gestionan producers y consumers.
 
-- **KNN** *(K-Nearest Neighbors)* [ML] — Algorisme de classificació que assigna a una dada la classe majoritària dels seus K veïns més pròxims.
+- ***KNN** *(K-Nearest Neighbors)* [ML] — Algoritmo de clasificación que asigna a un dato la clase mayoritaria de sus K vecinos más próximos.
 
-- **KPI** *(Key Performance Indicator)* [Visualització] — Indicador clau de rendiment: una mètrica de negoci que ajuda a avaluar l'assoliment d'objectius. Exemples: terminals en risc, cua mitjana, alertes actives.
+- ***KPI** *(Key Performance Indicator)* [Visualización] — Indicador clave de rendimiento: una métrica de negocio que ayuda a evaluar el logro de objetivos. Ejemplos: terminales en riesgo, cola mediana, alertas activas.
 
 ## L
 
-- **Lakehouse** [Big Data] — Arquitectura de dades que combina les millors característiques dels data lakes (baix cost i flexibilitat) i els data warehouses (fiabilitat i rendiment analític) en una sola plataforma.
+- ***Lakehouse** [Big Fecha] — Arquitectura de datos que combina las mejores características de los fecha lakes (bajo coste y flexibilidad) y los data warehouses (fiabilidad y rendimiento analítico) en una sola plataforma.
 
-- **Lectura executiva / comercial** [Context] — Interpretació dels resultats tècnics en termes de valor per a l'empresa, pensada per a qui pren decisions sense formació tècnica.
+- **Lectura ejecutiva / comercial** [Contexto] — Interpretación de los resultados técnicos en términos de valor para la empresa, pensada para quien toma decisiones sin formación técnica.
 
-- **LIME** [IA] — Mètode d'explicabilitat que explica una predicció concreta de manera local, apropant el comportament del model amb simplificacions.
+- ***LIME** [IA] — Método de explicabilitat que explica una predicción concreta de manera local, acercando el comportamiento del modelo con simplificaciones.
 
-- **Línia temporal** [Visualització] — Gràfic de línies que mostra l'evolució d'una variable al llarg del temps.
+- **Línea temporal** [Visualización] — Gráfico de líneas que muestra la evolución de una variable a lo largo del tiempo.
 
-- **Llindar (operatiu)** [Observabilitat] — Valor límit que, en superar-se, activa una alerta o protocol d'actuació (per exemple, una cua de camions que supera la capacitat d'un terminal).
+- **Umbral (operativo)** [Observabilitat] — Valor límite que, al superarse, activa una alerta o protocolo de actuación (por ejemplo, una cola de camiones que supera la capacidad de un terminal).
 
-- **LLM** *(Large Language Model)* [IA] — Model de llenguatge gran: xarxa neuronal entrenada amb grans quantitats de text capaç de generar i comprendre llenguatge natural.
+- ***LLM** *(Large Language Modelo)* [IA] — Modelo de lenguaje grande: red neuronal entrenada con grandes cantidades de texto capaz de generar y comprender lenguaje natural.
 
-- **LLMOps** [IA] — Pràctiques i eines per gestionar el cicle de vida dels LLMs en producció: ajust fi, avaluació, desplegament, monitorització i actualització.
+- ***LLMOps** [IA] — Prácticas y herramientas para gestionar el ciclo de vida de los LLMs en producción: ajuste fino, evaluación, despliegue, monitorització y actualización.
 
-- **Log (registre)** [Observabilitat] — Esdeveniment registrat cronològicament d'activitat del sistema, essencial per a la depuració, l'auditoria i la traçabilitat.
+- ***Log (registro)** [Observabilitat] — Acontecimiento registrado cronológicamente de actividad del sistema, esencial para la depuración, la auditoría y la trazabilidad.
 
 ## M
 
-- **Machine Learning (ML, aprenentatge automàtic)** [ML] — Disciplina en què els sistemes aprenen a partir de dades en lloc de ser programats amb regles explícites.
+- ***Machine Learning (ML, aprendizaje automático)** [ML] — Disciplina en que los sistemas aprenden a partir de datos en lugar de ser programados con reglas explícitas.
 
-- **MapReduce** [Big Data] — Model de programació distribuïda que processa i genera grans volums de dades en paral·lel (fase de "map" i fase de "reduce"); és la base de Hadoop.
+- ***MapReduce** [Big Fecha] — Modelo de programación distribuida que procesa y genera grandes volúmenes de datos en paralelo (fase de "map" y fase de "reduce"); es la base de Hadoop.
 
-- **Matplotlib** [Desenvolupament] — Llibreria de Python per a la creació de gràfiques i visualitzacions.
+- ***Matplotlib** [Desarrollo] — Librería de Python para la creación de gráficas y visualizaciones.
 
-- **Matriu de confusió** [ML] — Taula que mostra, per a cada classe, quants encerts i quants errors ha comès un classificador. Permet veure de quina mena són els errors.
+- **Matriz de confusión** [ML] — Tabla que muestra, para cada clase, cuántos aciertos y cuántos errores ha cometido un clasificador. Permite ver de qué tipo son los errores.
 
-- **Mètrica** [ML] — Valor numèric que avalua el rendiment d'un model o sistema (accuracy, precisió, recall, F1...). Cal triar la mètrica adequada a l'objectiu.
+- **Métrica** [ML] — Valor numérico que evalúa el rendimiento de un modelo o sistema (accuracy, precisión, recall, F1...). Hay que elegir la métrica adecuada al objetivo.
 
-- **MLflow** [IA] — Plataforma per a la gestió del cicle de vida de models: tracking d'experiments, versions i desplegament.
+- ***MLflow** [IA] — Plataforma para la gestión del ciclo de vida de modelos: tracking de experimentos, versiones y despliegue.
 
-- **MLOps** [IA] — Pràctiques per portar models de ML a producció de manera fiable i automatitzable, com es fa amb el codi tradicional.
+- ***MLOps** [IA] — Prácticas para llevar modelos de ML a producción de manera fiable y automatizable, como se hace con el código tradicional.
 
-- **Model (predictiu)** [ML] — Resultat de l'entrenament: una funció capaç de predir valors o categories a partir de noves entrades. Ha d'estar justificat i comparat amb un baseline.
+- **Modelo (predictivo)** [ML] — Resultado del entrenamiento: una función capaz de predecir valores o categorías a partir de nuevas entradas. Tiene que estar justificado y comparado con un baseline.
 
-- **Modelatge de dades** [BBDD] — Disseny de l'estructura de les dades (documents, taules, particions) perquè les consultes siguen eficients.
+- **Modelado de datos** [BBDD] — Diseño de la estructura de los datos (documentos, mesas, particiones) porque las consultas sean eficientes.
 
-- **MongoDB** [BBDD] — Base de dades NoSQL orientada a documents, molt usada per a dades persistents com tickets o registres d'interacció.
+- ***MongoDB** [BBDD] — Base de datos NoSQL orientada a documentos, muy usada para datos persistentes como tickets o registros de interacción.
 
-- **Monitorització** [Observabilitat] — Seguiment continu de l'estat del sistema (dades, serveis, infraestructura) per detectar anomalies i riscos.
+- ***Monitorització** [Observabilitat] — Seguimiento continuo del estado del sistema (datos, servicios, infraestructura) para detectar anomalías y riesgos.
 
-- **MQTT** [IoT] — Protocol de missatgeria lleuger pensat per a la comunicació entre dispositius IoT en xarxes d'amplada de banda reduïda.
+- ***MQTT** [Yate] — Protocolo de mensajería ligero pensado para la comunicación entre dispositivos Yate en redes de ancho de banda reducido.
 
-- **MVP** *(Minimum Viable Product)* [Desenvolupament] — Producte mínim viable: versió reduïda però funcional que demostra el valor central de la solució.
+- **MVP** *(Minimum Viable Product)* [Desarrollo] — Producto mínimo viable: versión reducida pero funcional que demuestra el valor central de la solución.
 
 ## N
 
-- **n8n** [DevOps] — Eina d'automatització de fluxos de treball (workflows) de codi obert, que orquestra serveis externs (correu, missatgeria, OCR, IA).
+- ***n8n** [DevOps] — Herramienta de automatización de flujos de trabajo (workflows) de código abierto, que orquesta servicios externos (correo, mensajería, OCR, IA).
 
-- **Neteja de dades** [Dades] — Eliminació o correcció de dades errònies, incompletes o incoherents abans d'analitzar.
+- **Limpieza de datos** [Datos] — Eliminación o corrección de datos erróneos, incompletas o incoherentes antes de analizar.
 
-- **Node-RED** [IoT] — Eina de programació visual basada en fluxos que connecta dispositius IoT, APIs i serveis a partir de nodes.
+- **Nodo-RED** [Yate] — Herramienta de programación visual basada en flujos que conecta dispositivos Yate, Apios y servicios a partir de nodos.
 
-- **NoSQL** [BBDD] — Família de bases de dades no relacionals (documents, columnes, clau-valor, grafs), pensades per a escalar horitzontalment.
+- ***NoSQL** [BBDD] — Familia de bases de datos no relacionales (documentos, columnas, clave-valor, grafos), pensadas para escalar horizontalmente.
 
-- **Notebook (de Jupyter)** [Desenvolupament] — Document que combina codi executable, text i resultats visuals, ideal per a exploració, modelatge i pràctiques guiades.
+- ***Notebook (de Jupyter)** [Desarrollo] — Documento que combina código ejecutable, texto y resultados visuales, ideal para exploración, modelado y prácticas guiadas.
 
-- **NumPy** [Desenvolupament] — Llibreria de Python per al càlcul numèric amb arrays i operacions matricials.
+- ***NumPy** [Desarrollo] — Librería de Python para el cálculo numérico con arrays y operaciones matriciales.
 
 ## O
 
-- **Observabilitat** [Observabilitat] — Capacitat de comprendre l'estat intern d'un sistema a partir de les seues eixides externes: logs, mètriques i traces.
+- ***Observabilitat** [Observabilitat] — Capacidad de comprender el estado interno de un sistema a partir de sus salidas externas: logs, métricas y trazas.
 
-- **Objectius de direcció** [Context] — Fites que la direcció de l'empresa vol assolir i que orienten el projecte tècnic (reduir cues, detectar sensors avariats, millorar la satisfacció...).
+- **Objetivos de dirección** [Contexto] — Hitos que la dirección de la empresa quiere lograr y que orientan el proyecto técnico (reducir colas, detectar sensores averiados, mejorar la satisfacción...).
 
-- **OpenCV (cv2)** [IA] — Llibreria de visió per computador per al processament d'imatges (llegir, convertir a escala de grisos, redimensionar).
+- ***OpenCV (cv2)** [IA] — Librería de visión por computador para el procesamiento de imágenes (leer, convertir a escala de grises, redimensionar).
 
-- **Orquestració** [DevOps] — Coordinació automatitzada de múltiples serveis o contenidors perquè funcionen conjuntament.
+- **Orquestación** [DevOps] — Coordinación automatizada de múltiples servicios o contenedores porque funcionan conjuntamente.
 
-- **Outlier (valor atípic)** [Dades] — Punt aïllat que s'aparta del comportament general de la resta de les dades; pot ser un error o una dada realment singular.
+- ***Outlier (valor atípico)** [Datos] — Punto aislado que se aparta del comportamiento general del resto de los datos; puede ser un error o un dato realmente singular.
 
-- **Overfitting** *(sobreajust)* [ML] — Situació en què un model aprèn massa bé les dades d'entrenament (incloent el soroll) i generalitza malament amb dades noves. Es detecta quan l'error d'entrenament és molt menor que el de prova.
+- ***Overfitting** *(sobreajust)* [ML] — Situación en que un modelo aprende demasiado bien los datos de entrenamiento (incluyendo el ruido) y generaliza mal con datos nuevos. Se detecta cuando el error de entrenamiento es muy menor que el de prueba.
 
 ## P
 
-- **Pandas** [Desenvolupament] — Llibreria de Python per a la manipulació i anàlisi de dades tabulars (DataFrames), el cavall de treball de la ciència de dades.
+- ***Pandas** [Desarrollo] — Librería de Python para la manipulación y análisis de datos tabulares (DataFrames), el caballo de trabajo de la ciencia de datos.
 
-- **Parquet** [Big Data] — Format de fitxer de dades columnar optimitzat per a l'emmagatzematge i l'anàlisi eficient de grans volums de dades en entorns distribuïts.
+- **Parqué** [Big Fecha] — Formado de fichero de datos columnar optimizado para el almacenamiento y el análisis eficiente de grandes volúmenes de datos en entornos distribuidos.
 
-- **Particionat** [BBDD] — Estratègia de distribució de les dades entre nodes per obtenir escalabilitat i disponibilitat, característica de Cassandra.
+- ***Particionat** [BBDD] — Estrategia de distribución de los datos entre nodos para obtener escalabilidad y disponibilidad, característica de Cassandra.
 
-- **Payload** [IoT] — Càrrega d'informació que un dispositiu (per exemple, un sensor) envia dins d'un missatge.
+- ***Payload** [Yate] — Carga de información que un dispositivo (por ejemplo, un sensor) envía dentro de un mensaje.
 
-- **PCA** *(Principal Component Analysis)* [ML] — Tècnica de reducció de dimensionalitat que transforma variables correlacionades en uns quants components principals, per simplificar i visualitzar.
+- ***PCA** *(Principal Componente Analysis)* [ML] — Técnica de reducción de dimensionalidad que transforma variables correlacionadas en unos cuántos componentes principales, para simplificar y visualizar.
 
-- **Pipeline** [ML] — Cadena ordenada de passos que transforma les dades des de l'entrada fins al resultat (neteja, preprocessament, model, eixida).
+- ***Pipeline** [ML] — Cadena ordenada de pasos que transforma los datos desde la entrada hasta el resultado (limpieza, preprocessament, modelo, salida).
 
-- **PLN** *(Processament de Llenguatge Natural, NLP)* [IA] — Camp de la IA que treballa la interacció entre ordinadors i llenguatge humà: comprensió, generació i anàlisi de text.
+- ***PLN** *(Procesamiento de Lenguaje Natural, NLP)* [IA] — Camp de la IA que trabaja la interacción entre ordenadores y lenguaje humano: comprensión, generación y análisis de texto.
 
-- **Power BI** [Visualització] — Eina de Microsoft per crear dashboards i informes interactius a partir de dades de l'organització (Projecte P2).
+- ***Power BI** [Visualización] — Herramienta de Microsoft para crear dashboards e informes interactivos a partir de datos de la organización (Proyecto P2).
 
-- **Precisió (precision)** [ML] — Mètrica: dels elements predits com a positius, quants són realment positius. Baixa precisió vol dir molts falsos positius.
+- **Precisión (precision)** [ML] — Métrica: de los elementos predichos como positivos, cuántos son realmente positivos. Baja precisión quiere decir muchos falsos positivos.
 
-- **Preprocessament** [Dades] — Preparació de les dades abans de modelar: neteja, imputació, codificació i escalat.
+- ***Preprocessament** [Datos] — Preparación de los datos antes de modelar: limpieza, imputación, codificación y escalado.
 
-- **Preguntes de negoci** [Context] — Problemes formulats en llenguatge empresarial que el sistema de dades ha de respondre (per exemple, "com afecta el descompte a les vendes?"). No són preguntes tècniques: guien l'anàlisi i el disseny del model.
+- **Preguntas de negocio** [Contexto] — Problemas formulados en lenguaje empresarial que el sistema de datos tiene que responder (por ejemplo, "como afecta el descuento a las ventas?"). No son preguntas técnicas: guían el análisis y el diseño del modelo.
 
-- **Producer (productor)** [Streaming] — Aplicació que publica missatges en els topics d'un sistema de streaming com Kafka.
+- ***Producer (productor)** [Streaming] — Aplicación que publica mensajes en los topics de un sistema de streaming como Kafka.
 
-- **Prometheus** [Observabilitat] — Sistema de monitorització i recollida de mètriques que alimenta alertes i panells, habitualment visualitzades a Grafana.
+- ***Prometheus** [Observabilitat] — Sistema de monitorització y recogida de métricas que alimenta alertas y paneles, habitualmente visualizadas a Grafana.
 
-- **Prompt engineering** [IA] — Disseny i afinament de les instruccions (prompts) que se li donen a un LLM per obtindre respostes més útils i fiables.
+- ***Prompt engineering** [IA] — Diseño y afinadura de las instrucciones (prompts) que se le dan a un LLM para obtener respuestas más útiles y fiables.
 
-- **PyTorch** [Desenvolupament] — Framework de deep learning per construir i entrenar xarxes neuronals.
+- ***PyTorch** [Desarrollo] — Framework de deep learning para construir y entrenar redes neuronales.
 
-- **Python** [Desenvolupament] — Llenguatge de programació principal del curs, amb un ecosistema massiu per a dades i IA.
+- ***Python** [Desarrollo] — Lenguaje de programación principal del curso, con un ecosistema masivo para datos y IA.
 
 ## Q
 
-- **Qualitat de dades** [Dades] — Grau de correcció, completitud i fiabilitat d'un dataset. Cal revisar-la abans de modelar.
+- **Calidad de datos** [Datos] — Grado de corrección, completitud y fiabilidad de un dataset. Hay que revisarla antes de modelar.
 
 ## R
 
-- **RAG** *(Retrieval-Augmented Generation)* [IA] — Tècnica que genera respostes amb ajuda d'un LLM però augmentades amb documents recuperats d'una base de coneixement. Primer recupera, després genera, i ha de saber dir "no ho sé" si no hi ha context (Projecte P1).
+- ***RAG** *(Retrieval-Augmented Generation)* [IA] — Técnica que genera respuestas con ayuda de un LLM pero aumentadas con documentos recuperados de una base de conocimiento. Primero recupera, después genera, y tiene que saber decir "no lo sé" si no hay contexto (Proyecto P1).
 
-- **Random Forest** [ML] — Ensemble de molts arbres de decisió que combina les seues prediccions per millorar l'estabilitat i la precisió.
+- ***Random Monte** [ML] — Ensemble de muchos árboles de decisión que combina sus predicciones para mejorar la estabilidad y la precisión.
 
-- **Recall (sensibilitat)** [ML] — Mètrica: dels elements realment positius, quants ha detectat el model. Baix recall vol dir que es perden casos positius.
+- ***Recall (sensibilidad)** [ML] — Métrica: de los elementos realmente positivos, cuántos ha detectado el modelo. Bajo recall quiere decir que se pierden casos positivos.
 
-- **Recomanacions accionables** [Context] — Conclusions pràctiques i concretes que la direcció pot aplicar directament, derivades de l'anàlisi de dades.
+- **Recomendaciones accionables** [Contexto] — Conclusiones prácticas y concretas que la dirección puede aplicar directamente, derivadas del análisis de datos.
 
-- **Regressió** [ML] — Tipus d'algorisme d'aprenentatge supervisat que prediu un valor numèric continu (vendes, minuts de cua, temperatura...).
+- **Regresión** [ML] — Tipo de algoritmo de aprendizaje supervisado que predice un valor numérico continuo (ventas, minutos de cola, temperatura...).
 
-- **Repositori (repo)** [Desenvolupament] — Espai on es guarda el codi d'un projecte amb el seu històric de versions (Git). 
+- **Repositorio (repo)** [Desarrollo] — Espacio donde se guarda el código de un proyecto con su histórico de versiones (Git). 
 
-- **REST** [Desenvolupament] — Estil arquitectònic per a APIs web basat en recursos i verbs HTTP (GET, POST, PUT, DELETE).
+- **RISTRA** [Desarrollo] — Estilo arquitectónico para Apios web basado en recursos y verbos HTTP (GET, POST, HEDE, DELETE).
 
-- **RGPD** [Seguretat] — Reglament europeu de protecció de dades personals; tot sistema que tracte dades personals ha de complir-lo.
+- ***RGPD** [Seguridad] — Reglamento europeo de protección de datos personales; todo sistema que trato datos personales tiene que cumplirlo.
 
-- **ROC / AUC** [ML] — Curva ROC i àrea sota la corba: mètriques que valoren la capacitat del model per separar classes al llarg de diversos llindars.
+- ***ROC / AUC** [ML] — Curva ROC y área bajo la curva: métricas que valoran la capacidad del modelo para separar clases a lo largo de varios umbrales.
 
-- **RPA** *(Robotic Process Automation)* [IA] — Automatització de processos basats en regles mitjançant "robots" de programari, sovint contextualitzada amb IA.
+- ***RPA** *(Robotic Process Automation)* [IA] — Automatización de procesos basados en reglas mediante "robots" de software, a menudo contextualizada con IA.
 
 ## S
 
-- **S3** *(Amazon Simple Storage Service)* [Big Data] — Servei d'emmagatzematge d'objectes d'Amazon Web Services, àmpliament utilitzat com a base dels data lakes al núvol.
+- **S3** *(Amazon Simple Storage Service)* [Big Fecha] — Servicio de almacenamiento de objetos de Amazon Web Services, ampliamente utilizado como base de los fecha lakes a la nube.
 
-- **scikit-learn** [Desenvolupament] — Llibreria de Python de ML clàssic: classificació, regressió, clustering i preprocessament amb una API coherent.
+- ***scikit-learn** [Desarrollo] — Librería de Python de ML clásico: clasificación, regresión, clustering y preprocessament con una APIO coherente.
 
-- **Seaborn** [Desenvolupament] — Llibreria de visualització estadística construïda sobre Matplotlib, amb gràfics més elaborats.
+- ***Seaborn** [Desarrollo] — Librería de visualización estadística construida sobre Matplotlib, con gráficos más elaborados.
 
-- **Segmentació (de clients)** [ML] — Agrupació de clients en segments amb característiques comunes mitjançant tècniques de clustering. Els segments han de tindre una lectura comercial, no ser només etiquetes.
+- **Segmentación (de clientes)** [ML] — Agrupación de clientes en segmentos con características comunes mediante técnicas de clustering. Los segmentos tienen que tener una lectura comercial, no ser solo hashtags.
 
-- **Sensor** [IoT] — Dispositiu que captura dades de l'entorn (temperatura, humitat, estat de maquinària) i les tramet al sistema.
+- **Sensor** [Yate] — Dispositivo que captura datos del entorno (temperatura, humedad, estado de maquinaria) y las envía al sistema.
 
-- **Sèrie temporal** [Dades] — Seqüència de dades ordenada cronològicament. S'utilitza generalment per a predicció d'evolució.
+- **Serie temporal** [Datos] — Secuencia de datos ordenada cronológicamente. Se utiliza generalmente para predicción de evolución.
 
-- **Serverless** [DevOps] — Model de desplegament en què el núvol gestiona el servidor; el codi s'executa sota demanda (functions as a service).
+- ***Serverless** [DevOps] — Modelo de despliegue en que la nube gestiona el servidor; el código se ejecuta bajo demanda (functions as a service).
 
-- **SHAP** [IA] — Mètode d'explicabilitat que descompon cada predicció i mostra la contribució de cada variable a partir de la teoria de jocs.
+- ***SHAP** [IA] — Método de explicabilitat que descompone cada predicción y muestra la contribución de cada variable a partir de la teoría de juegos.
 
-- **Schema Registry** [Streaming] — Registre centralitzat d'esquemes que valida i controla l'evolució dels formats de dades en un sistema de streaming.
+- ***Schema Registry** [Streaming] — Registro centralizado de esquemas que valida y controla la evolución de los formatos de datos en un sistema de streaming.
 
-- **Sistemes experts** [IA] — Sistemes basats en regles i coneixement explícit, contraposats als LLMs dins de l'evolució de la IA.
+- **Sistemas expertos** [IA] — Sistemas basados en reglas y conocimiento explícito, contrapuestos a los LLMs dentro de la evolución de la IA.
 
-- **Snowflake** [Big Data] — Plataforma de data cloud que separa l'emmagatzematge i la computació, permetent escalar-los de manera independent i simplificant la gestió de dades.
+- ***Snowflake** [Big Fecha] — Plataforma de fecha cloud que separa el almacenamiento y la computación, permitiendo escalarlos de manera independiente y simplificando la gestión de datos.
 
-- **Soroll (en dades)** [Dades] — Dades no útils, incorrectes o irrelevants que interferixen en l'anàlisi o el model.
+- **Ruido (en datos)** [Datos] — Datos no útiles, incorrectos o irrelevants que interfieren en el análisis o el modelo.
 
-- **Spark** [Big Data] — Motor de processament distribuït per a grans volums de dades i analítica sobre clusters.
+- ***Spark** [Big Fecha] — Motor de procesamiento distribuido para grandes volúmenes de datos y analítica sobre clusters.
 
-- **Streaming** [Streaming] — Processament continu de fluxos de dades a mesura que es generen, en lloc de per lots.
+- ***Streaming** [Streaming] — Procesamiento continuo de flujos de datos a medida que se generan, en lugar de por lotes.
 
-- **Streamlit** [Desenvolupament] — Eina per crear aplicacions web interactives a partir de scripts de Python, molt usada per a demos i panells.
+- ***Streamlit** [Desarrollo] — Herramienta para crear aplicaciones web interactivas a partir de scripts de Python, muy usada para demos y paneles.
 
-- **SVM** *(Support Vector Machine)* [ML] — Algorisme de classificació que busca el hiperplà que separa millor les classes.
+- ***SVM** *(Support Vector Machine)* [ML] — Algoritmo de clasificación que busca el hiperplà que separa mejor las clases.
 
 ## T
 
-- **Target (variable objectiu)** [ML] — La variable que el model vol predir; la resta de dades són les característiques o variables independents.
+- ***Target (variable objetivo)** [ML] — La variable que el modelo quiere predecir; el resto de datos son las características o variables independientes.
 
-- **Taxonomia** [IA] — Estructura ordenada de categories i prioritats que un sistema de classificació utilitza per etiquetar.
+- **Taxonomía** [IA] — Estructura ordenada de categorías y prioridades que un sistema de clasificación utiliza para etiquetar.
 
-- **Token** [IA] — Unitat mínima de text amb la qual treballen els models de llenguatge (paraula, fragment o caràcter); el procés de dividir el text es diu tokenització.
+- ***Token** [IA] — Unidad mínima de texto con la cual trabajan los modelos de lenguaje (palabra, fragmento o carácter); el proceso de dividir el texto se llama tokenització.
 
-- **Topic (tema)** [Streaming] — Canal lògic de Kafka on s'agrupen i s'emmagatzemen els missatges d'un mateix assumpte.
+- ***Topic (tema)** [Streaming] — Canal lógico de Kafka donde se agrupan y se almacenan los mensajes de un mismo asunto.
 
-- **Traçabilitat** [Dades] — Capacitat de seguir i documentar l'origen i el recorregut de cada dada o resposta del sistema. Cal poder justificar d'on ix cada resultat.
+- **Trazabilidad** [Datos] — Capacidad de seguir y documentar el origen y el recorrido de cada dato o respuesta del sistema. Hay que poder justificar de donde sale cada resultado.
 
-- **Train/test (partició)** [ML] — Divisió del dataset en un conjunt d'entrenament i un de prova per entrenar i avaluar el model amb dades no vistes.
+- ***Train/maceta (partición)** [ML] — División del dataset en un conjunto de entrenamiento y uno de prueba para entrenar y evaluar el modelo con datos no vistos.
 
-- **Transformers** [IA] — Arquitectura de xarxes neuronals sobre la qual es construeixen els LLMs moderns.
+- ***Transformers** [IA] — Arquitectura de redes neuronales sobre la cual se construyen los LLMs modernos.
 
-- **Tracking (d'experiments)** [IA] — Registre sistemàtic de paràmetres, mètriques i versions dels experiments de ML, per exemple amb MLflow.
+- ***Tracking (de experimentos)** [IA] — Registro sistemático de parámetros, métricas y versiones de los experimentos de ML, por ejemplo con MLflow.
 
-- **Transfer learning** *(aprenentatge per transferència)* [ML] — Tècnica que reaprofita un model entrenat en una tasca com a punt de partida per a una altra tasca similar, reduint el temps i les dades necessaris.
+- ***Transfer learning** *(aprendizaje por transferencia)* [ML] — Técnica que reaprofita un modelo entrenado en una tarea como punto de partida para otra tarea similar, reduciendo el tiempo y los datos necesarios.
 
-## U
+## Uno
 
-- **UI** *(User Interface)* [Desenvolupament] — Interfície gràfica amb la qual interactua l'usuari final.
+- ***UI** *(User Interface)* [Desarrollo] — Interfaz gráfica con la cual interactúa el usuario final.
 
-- **Underfitting** *(infraajust)* [ML] — Situació en què un model és massa simple per capturar els patrons de les dades, i obté resultats dolents tant en entrenament com en prova.
+- ***Underfitting** *(infraajust)* [ML] — Situación en que un modelo es demasiado simple para capturar los patrones de los datos, y obtiene resultados malos tanto en entrenamiento como en prueba.
 
 ## V
 
-- **Valor perdut** [Dades] — Dada absent en un dataset; cal decidir entre imputar-la o descartar el registre.
+- **Valor perdido** [Datos] — Dato ausente en un dataset; hay que decidir entre imputarla o descartar el registro.
 
-- **Vector DB (Base de dades vectorial)** [BBDD] — Base de dades pensada per emmagatzemar i cercar embeddings de forma eficient; el suport funcional del RAG.
+- **Vector DB (Base de datos vectorial)** [BBDD] — Base de datos pensada para almacenar y buscar embeddings de forma eficiente; el apoyo funcional del RAG.
 
-- **Vertical funcional** [Desenvolupament] — Versió reduïda però completa del sistema que travessa totes les capes (dada → anàlisi → eixida) i demostra que el flux principal funciona.
+- **Vertical funcional** [Desarrollo] — Versión reducida pero completa del sistema que travesía todas las capas (dato → análisis → salido) y demuestra que el flujo principal funciona.
 
-- **Visió per computador** [IA] — Camp de la IA que dona a les màquines la capacitat d'interpretar imatges i vídeo.
+- **Visión por computador** [IA] — Camp de la IA que mujer a las máquinas la capacidad de interpretar imágenes y video.
 
-- **Visualització de dades** [Visualització] — Representació gràfica de dades per facilitar-ne la interpretació i la presa de decisions.
+- **Visualización de datos** [Visualización] — Representación gráfica de datos para facilitar la interpretación y la toma de decisiones.
 
 ## W
 
-- **Web scraping** [Desenvolupament] — Tècnica per extreure automàticament dades de pàgines web, transformant el contingut HTML en dades estructurades per al seu anàlisi.
+- **Web scraping** [Desarrollo] — Técnica para extraer automáticamente datos de páginas web, transformando el contenido HTML en datos estructurados para su análisis.
 
-- **Workflow** [DevOps] — Flux de treball automatitzat que orquestra passos, condicions i respostes entre serveis.
+- ***Workflow** [DevOps] — Flujo de trabajo automatizado que orquesta pasos, condiciones y respuestas entre servicios.
 
 ## X
 
-- **XAI** *(Explainable AI, IA explicable)* [IA] — Camp d'IA que aporta tècniques per fer comprensibles i justificables les decisions dels models (SHAP, LIME, importàncies).
+- **CORDERO** *(Explainable AI, IA explicable)* [IA] — Camp de IA que aporta técnicas para hacer comprensibles y justificables las decisiones de los modelos (SHAP, LIME, importancias).
 
-- **Xarxa neuronal (artificial)** [IA] — Model inspirat en el cervell format per capes de neurones que aprén representacions a partir de les dades; la base del deep learning.
+- **Red neuronal (artificial)** [IA] — Modelo inspirado en el cerebro formado por capas de neuronas que aprende representaciones a partir de los datos; la base del deep learning.
 
-- **XGBoost / CatBoost / LightGBM** [ML] — Implementacions optimitzades i escalables de la tècnica Gradient Boosting, molt utilitzades en competicions i projectes reals per la seua alta precisió.
+- ***XGBoost / CatBoost / LightGBM** [ML] — Implementaciones optimizadas y escalables de la técnica Gradiente Boosting, muy utilizadas en competiciones y proyectos reales por su alta precisión.
 
 ## Y
 
-- **YOLO** *(You Only Look Once)* [IA] — Arquitectura de detecció d'objectes en temps real sobre imatges i vídeo. S'utilitza per inferència (no entrenament) amb la variant YOLOv8n, per exemple per a detecció visual en el projecte IoT/logística.
+- ***YOLO** *(You Only Look Once)* [IA] — Arquitectura de detección de objetos en tiempo real sobre imágenes y video. Se utiliza por inferencia (no entrenamiento) con la variante YOLOv8n, por ejemplo para detección visual en lo proyecte Yate/logística.
 
 ---
 
-## Índex per àmbits
+## Índice por ámbitos
 
-| Àmbit | Termes |
+| Ámbito | Termas |
 |---|---|
-| [IA] Intel·ligència Artificial | Anàlisi de sentiments, Agent, Embedding, LLM, LLMOps, RAG, PLN, Fine-tuning, Token, Tokenització, Prompt engineering, Guardrails, XAI, SHAP, LIME, Interpretabilitat, Caixa negra, Sistemes experts, Visió per computador, YOLO, Detecció d'objectes, Inferència, CNN, Transformers, Deep Learning, Xarxa neuronal, RPA, Edge AI, MLOps, MLflow, Tracking, Base de coneixement documental, Corpus, Taxonomia, Chunk, Biaix, Heurística |
-| [ML] Machine Learning | Machine Learning, Aprenentatge supervisat, Aprenentatge no supervisat, Aprenentatge per reforç, Baseline, Classificació, Regressió, Clustering, K-Means, DBSCAN, PCA, KNN, SVM, Arbre de decisió, Random Forest, Gradient Boosting, Cross-validation, Train/test, Matriu de confusió, Accuracy, Precisió, Recall, F1-score, ROC/AUC, Fals positiu/fals negatiu, Mètrica, Generalització, Valor objectiu, Enginyeria de variables, Model predictiu, Segmentació de clients, Pipeline, Overfitting, Underfitting, Transfer learning, XGBoost / CatBoost / LightGBM |
-| [Dades] Ciència de dades | EDA, Dataset, Qualitat de dades, Neteja de dades, Data mining, Preprocessament, Imputació, Codificació, Escalat, Outlier, Valor perdut, Sèrie temporal, Correlació, Distribució, Soroll, Dades històriques, Dades tabulars, Dades en temps real, Integritat de dades, Traçabilitat, Checksum |
-| [BBDD] Bases de dades | MongoDB, Cassandra, NoSQL, Esquema de dades, Modelatge de dades, Agregació, Particionat, Consistència, Vector DB, Dades documentals |
-| [Big Data] | Big Data, Spark, MapReduce, Avro, Parquet, Delta Lake, Iceberg, Lakehouse, Databricks Lakehouse, S3, Snowflake |
-| [Streaming] | Kafka, Topic, Producer, Consumer, Schema Registry, Contracte de dades, Esdeveniment, Streaming |
-| [IoT] | IoT, Sensor, MQTT, Node-RED, FIWARE/Orion, Payload |
-| [Observabilitat] | Observabilitat, Monitorització, Log, Mètrica, Alerta, Llindar, Prometheus, Grafana, ELK stack | 
-| [DevOps] | Docker, Docker Compose, Contenidor, Orquestració, n8n, Workflow, Cloud, Serverless, Automatització, Desplegament |
-| [Visualització] | Dashboard, Dashboard executiu, KPI, Power BI, Visualització de dades, BI, Línia temporal, Diagrama de dispersió |
-| [Desenvolupament] | Python, Entorn virtual, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, PyTorch, OpenCV, Notebook, API, REST, GraphQL, FastAPI, Flask, Streamlit, Gradio, UI, Git, Repositori, Arquitectura, Integració de serveis, Integració vertical, Vertical funcional, MVP, Deute tècnic, Autenticació, Web scraping |
-| [Seguretat] | RGPD, Autenticació |
-| [Context] Expressions de negoci | Preguntes de negoci, Objectius de direcció, Recomanacions accionables, Decisió de negoci, Lectura executiva/comercial, Bottleneck (coll de botella), Cua de camions, Triatge |
+| [IA] Inteligencia Artificial | Análisis de sentimientos, Agente, Embedding, LLM, LLMOps, RAG, PLN, Fino-tuning, Token, Tokenització, Prompt engineering, Guardrails, CORDERO, SHAP, LIME, Interpretabilitat, Caja negra, Sistemas expertos, Visión por computador, YOLO, Detección de objetos, Inferencia, CNN, Transformers, Deep Learning, Red neuronal, RPA, Edge AI, MLOps, MLflow, Tracking, Base de conocimiento documental, Corpus, Taxonomía, Chunk, Sesgo, Heurística |
+| [ML] Machine Learning | Machine Learning, Aprendizaje supervisado, Aprendizaje no supervisado, Aprendizaje por refuerzo, Baseline, Clasificación, Regresión, Clustering, K-Means, DBSCAN, PCA, KNN, SVM, Árbol de decisión, Random Monte, Gradiente Boosting, Cross-validation, Train/maceta, Matriz de confusión, Accuracy, Precisión, Recall, F1-score, ROC/AUC, Falso positivo/falso negativo, Métrica, Generalización, Valor objetivo, Ingeniería de variables, Modelo predictivo, Segmentación de clientes, Pipeline, Overfitting, Underfitting, Transfer learning, XGBoost / CatBoost / LightGBM |
+| [Datos] Ciencia de datos | EDA, Dataset, Calidad de datos, Limpieza de datos, Fecha mining, Preprocessament, Imputación, Codificación, Escalado, Outlier, Valor perdido, Serie temporal, Correlación, Distribución, Ruido, Datos históricos, Datos tabulares, Datos en tiempo real, Integridad de datos, Trazabilidad, Checksum |
+| [BBDD] Bases de datos | MongoDB, Cassandra, NoSQL, Esquema de datos, Modelado de datos, Agregación, Particionat, Consistencia, Vector DB, Datos documentales |
+| [Big Fecha] | Big Fecha, Spark, MapReduce, Avro, Parqué, Delta Lake, Iceberg, Lakehouse, Databricks Lakehouse, S3, Snowflake |
+| [Streaming] | Kafka, Topic, Producer, Consumer, Schema Registry, Contrato de datos, Acontecimiento, Streaming |
+| [Yate] | Yate, Sensor, MQTT, Nodo-RED, FIWARE/Orion, Payload |
+| [Observabilitat] | Observabilitat, Monitorització, Log, Métrica, Alerta, Umbral, Prometheus, Grafana, ELK stack | 
+| [DevOps] | Docker, Docker Compongo, Contenedor, Orquestación, n8n, Workflow, Cloud, Serverless, Automatización, Despliegue |
+| [Visualización] | Dashboard, Dashboard ejecutivo, KPI, Power BI, Visualización de datos, BI, Línea temporal, Diagrama de dispersión |
+| [Desarrollo] | Python, En torno virtual, NumPy, Pandas, Matplotlib, Seaborn, scikit-learn, PyTorch, OpenCV, Notebook, APIO, RISTRA, GraphQL, FastAPI, Flask, Streamlit, Gradio, UI, Git, Repositorio, Arquitectura, Integración de servicios, Integración vertical, Vertical funcional, MVP, Deuda técnica, Autenticación, Web scraping |
+| [Seguridad] | RGPD, Autenticación |
+| [Contexto] Expresiones de negocio | Preguntas de negocio, Objetivos de dirección, Recomendaciones accionables, Decisión de negocio, Lectura ejecutiva/comercial, Bottleneck (cuello de botella), Cola de camiones, Triaje |
