@@ -2,7 +2,7 @@
 title: "Clustering e interpretación de perfiles"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: clustering e interpretación de perfiles."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

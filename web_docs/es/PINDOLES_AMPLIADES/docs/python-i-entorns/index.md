@@ -2,7 +2,7 @@
 title: "Python y entornos de trabajo"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: python y entornos de trabajo."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

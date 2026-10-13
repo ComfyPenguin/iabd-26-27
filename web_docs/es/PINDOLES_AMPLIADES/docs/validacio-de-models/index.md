@@ -2,7 +2,7 @@
 title: "Validación: mesurar aquello que realmente queremos predecir"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: validación: mesurar aquello que realmente queremos predecir."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

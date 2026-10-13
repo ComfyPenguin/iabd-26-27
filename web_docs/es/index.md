@@ -69,6 +69,7 @@ Todos los datos son **sintéticas para docencia**. Los clientes son una muestra 
 Separáis meses completos, sin mezclar filas aleatoriamente. Ajustáis la imputación y la escala solo con entrenamiento. La prueba representa predicciones sucesivas de un mes vista: para predecir junio, mayo ya se ha observado. No es una predicción simultánea de seis meses hecha en diciembre.
 
 <a id="mapa-semanal"></a>
+<a id="mapa-setmanal"></a>
 ## Mapa del proyecto por semanas
 
 | Semana | Foco | Material práctico principal | Evidencia de cierre |
@@ -83,6 +84,7 @@ Separáis meses completos, sin mezclar filas aleatoriamente. Ajustáis la imputa
 Cada semana tiene cuatro momentos: **preparar → desarrollar → comprobar → entregar**. Distribuidlos entre las sesiones reales con el profesorado. Las ampliaciones son opcionales y se hacen después del mínimo de la semana.
 
 <a id="semana-1"></a>
+<a id="setmana-1"></a>
 ## Semana 1 · Entender el reto y explorar
 
 **Objetivo:** formular una pregunta de negocio concreta y comprobar qué permiten responder los datos.
@@ -126,6 +128,7 @@ Completáis esta ficha en el repositorio:
 Adjuntáis el notebook ejecutado con comentarios. Podéis avanzar cuando cualquier miembro explico la pregunta, la clave de una fila y al menos un problema de calidad.
 
 <a id="semana-2"></a>
+<a id="setmana-2"></a>
 ## Semana 2 · Preparar los datos y establecer una referencia
 
 **Objetivo:** tener una preparación reproducible y una primera predicción con qué comparar los modelos.
@@ -160,6 +163,7 @@ Adjuntáis el notebook ejecutado con comentarios. Podéis avanzar cuando cualqui
 Paraos antes del apartado 3 del notebook 02. El conjunto de prueba queda reservado.
 
 <a id="semana-3"></a>
+<a id="setmana-3"></a>
 ## Semana 3 · Comparar modelos
 
 **Objetivo:** seleccionar una alternativa con evidencias de validación, sin mirar el resultado de la prueba final.
@@ -190,6 +194,7 @@ Mesa comparativa, elección argumentada y dos casos de error en validación. Tod
 **Paraos antes del apartado 5.** La selección se revisa en CP3 junto con la segmentación; la prueba final llegará en semana 5.
 
 <a id="semana-4"></a>
+<a id="setmana-4"></a>
 ## Semana 4 · Segmentar clientes y proponer acciones
 
 **Objetivo:** describir perfiles de cliente que ayudan a decidir campañas, servicios o prioridades comerciales.
@@ -223,6 +228,7 @@ Mesa comparativa, elección argumentada y dos casos de error en validación. Tod
 No hay un hashtag de segmento «correcta». Hay que justificar utilidad y límites. No unís esta fotografía de clientes con ventas históricas como si fueron las mismas transacciones.
 
 <a id="semana-5"></a>
+<a id="setmana-5"></a>
 ## Semana 5 · Hacer la prueba final y explicar el resultado
 
 **Objetivo:** comprobar el modelo en datos reservados y comunicar sus errores y límites.
@@ -254,6 +260,7 @@ Métricas finales, análisis de errores, fichero de predicciones y límites docu
 Esta entrega prepara CP4. Las métricas no se evalúan para superar un umbral mágico: importa que el proceso sea correcto y que sepáis explicar el resultado.
 
 <a id="semana-6"></a>
+<a id="setmana-6"></a>
 ## Semana 6 · Construir el dashboard y defender decisiones
 
 **Objetivo:** presentar una propuesta que la dirección pueda entender y utilizar.
@@ -292,6 +299,7 @@ Esta entrega prepara CP4. Las métricas no se evalúan para superar un umbral m�
 **Comprobación mínima de defensa:** una comparativa entre modelos, dos perfiles útiles y una recomendación concreta que la dirección podría considerar. Cada miembro tiene que poder explicar su aportación y el hilo general del proyecto.
 
 <a id="registro"></a>
+<a id="registre"></a>
 ## Registro de trabajo y revisiones
 
 Mantenéis este registro en la copia de trabajo del equipo o en el repositorio. No hay que crear otra guía del proyecto.
@@ -308,6 +316,7 @@ Mantenéis este registro en la copia de trabajo del equipo o en el repositorio. 
 En cada checkpoint indicáis **equipo, fecha, objetivo, trabajo acabado, bloqueo, pruebas hechas, decisión técnica, alternativas descartadas, feedback y acción siguiente**. El profesorado puede valorar comprensión, autonomía y calidad técnica con nivel alto, mediano o bajo para orientar el progreso; esto no sustituye la rúbrica final.
 
 <a id="repositorio"></a>
+<a id="repositori"></a>
 ## Organización del trabajo del equipo
 
 ```text
@@ -324,6 +333,7 @@ equip_bicitierra/
 El README del equipo tiene que indicar objetivo, miembros, estructura, dependencias, orden de ejecución y limitaciones. Si trasladáis los notebooks a vuestro repositorio, adaptáis las rutas de datos. En el paquete librado, los notebooks encuentran los CSV en `../dades/` respecto de su carpeta.
 
 <a id="memoria"></a>
+<a id="memoria"></a>
 ## Estructura de la memoria final
 
 1. **Resumen ejecutivo:** problema, propuesta y valor para la empresa.
@@ -335,6 +345,7 @@ El README del equipo tiene que indicar objetivo, miembros, estructura, dependenc
 7. **Reparto del trabajo:** aportaciones, decisiones compartidas y dificultades resueltas.
 
 <a id="autoavaluacio"></a>
+<a id="autoavaluacio"></a>
 ## Autoevaluación del equipo
 
 - Quién ha asumido el análisis, los datos, el modelado, la segmentación, la visualización y la documentación?
@@ -344,6 +355,7 @@ El README del equipo tiene que indicar objetivo, miembros, estructura, dependenc
 - Qué nivel de autonomía habéis logrado y en que todavía necesitáis apoyo?
 - Cada miembro explica una aportación concreta y un aspecto que necesita reforzar.
 
+<a id="avaluacio"></a>
 <a id="avaluacio"></a>
 ## Evaluación y evidencias
 

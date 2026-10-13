@@ -2,7 +2,7 @@
 title: "Visualización con Matplotlib y seaborn"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: visualización con matplotlib y seaborn."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

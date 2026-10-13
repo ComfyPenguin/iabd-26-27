@@ -2,7 +2,7 @@
 title: "NumPy y pandas: de los datos a las mesas"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: numpy y pandas: de los datos a las mesas."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

@@ -2,7 +2,7 @@
 title: "Dashboards y modelado con Power BI"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: dashboards y modelado con power bi."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

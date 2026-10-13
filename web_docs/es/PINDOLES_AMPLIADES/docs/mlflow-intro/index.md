@@ -2,7 +2,7 @@
 title: "MLflow: experimentos trazables y comparables"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: mlflow: experimentos trazables y comparables."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

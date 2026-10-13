@@ -2,7 +2,7 @@
 title: "Exploración y calidad de datos"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: exploración y calidad de datos."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 

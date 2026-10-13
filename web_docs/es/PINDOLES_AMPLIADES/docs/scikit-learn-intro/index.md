@@ -2,7 +2,7 @@
 title: "Aprendizaje supervisado con scikit-learn"
 description: "Cimientos, ejemplos reproducibles y práctica progresiva: aprendizaje supervisado con scikit-learn."
 tags: [IABD, datos, formación]
-icon: material/book-open-page-variante
+icon: material/book-open-page-variant
 status: ampliada
 ---
 
